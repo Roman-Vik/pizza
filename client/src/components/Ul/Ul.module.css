@@ -1,0 +1,23 @@
+.menu__list {
+    padding: 41px 0 38px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.menu__link:hover {
+    color: #F96900;
+}

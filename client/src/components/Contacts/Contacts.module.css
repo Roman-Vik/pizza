@@ -1,0 +1,27 @@
+.reference__num {
+    margin-top: 29px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.reference__tel {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 6px 0 26px 0;
+}
+
+.reference__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

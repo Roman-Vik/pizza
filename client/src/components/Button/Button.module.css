@@ -1,0 +1,20 @@
+.menu__cart {
+    display: block;
+    padding: 9px 20px 9px 20px;
+    background: #F96900;
+    border-radius: 1000px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.menu__btn {
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+}

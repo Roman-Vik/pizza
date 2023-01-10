@@ -1,0 +1,16 @@
+.reference__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.reference__mail {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.9;
+}

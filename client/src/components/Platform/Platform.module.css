@@ -1,0 +1,9 @@
+.reference__lApp {
+    display: flex;
+    gap: 5px;
+}
+
+.reference__img > img {
+    width: 135px;
+    height: 40px;
+}

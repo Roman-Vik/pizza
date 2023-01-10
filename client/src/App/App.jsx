@@ -1,8 +1,15 @@
 import './App.css';
+import {Header} from "../UI/Header/Header";
+import {Main} from "../UI/Main/Main";
+import {Footer} from "../UI/Footer/Footer";
 
 export function App() {
     return (
-        <h1>Hello React</h1>
+        <>
+            <Header/>
+            <Main/>
+            <Footer/>
+        </>
     );
 }
 

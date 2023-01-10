@@ -1,0 +1,20 @@
+.reference {
+    padding-top: 50px;
+    background: #464C55;
+}
+.reference__wrapper {
+    background: #464C55;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul{
+    padding: 0;
+}
+.reference__item_big {
+    width: max-content;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range {
+    padding: 0 0 134px 0;
+}
+
+.cards__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.reference {
+    padding-top: 50px;
+    background: #464C55;
+}
+
+.statistic {
+    background: rgb(70, 76, 85);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1060px;
+}
