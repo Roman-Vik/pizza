@@ -91,3 +91,40 @@ span {
       color: #ffffff;
       border-radius: 50px;
 }
+
+@media (max-width: 320px) {
+    .order {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .status {
+      display: block;
+    }
+    .status__value {
+      font-size: 24px;
+    }
+    .status__time {
+      display: none;
+    }
+    .address {
+      padding: 18px 21px 18px 20px;
+      border-radius: 10px;
+      background-color: #F3F3F7;
+      border-top: none;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .button {
+      flex-direction: column;
+      text-align: center;
+    }
+    .btn__right {
+      margin-top: 10px;
+    }
+    .address__sity {
+      margin-top: 4px;
+    }
+    
+  }
