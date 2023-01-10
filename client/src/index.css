@@ -4,6 +4,8 @@
     padding: 0;
 }
 body{
+    margin: 0 auto;
+    max-width: 1280px;
     border: #D15700 1px dotted;
 }
 li {

@@ -1,11 +1,9 @@
-.sliders{
-    padding: 0 0 70px 0;
+.card {
+	border-radius: 20px;
+	height: 300px;
+	width: auto;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
 }
-.sliders__main{
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 50px 55px 206px rgba(115, 121, 140, 0.2);
-}
-
