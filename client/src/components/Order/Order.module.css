@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    border: seagreen solid 2px;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+
+.status {
+    border: seagreen 1px solid;
+    display: flex;
+}
+
+.wrapper_round {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.round {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #424242;
+}
+
+.x {
+    display: flex;
+}
+
+.line {
+    width: 114px;
+    border-top: 1px dashed #000; /* Параметры линии  */
+}
+
+.headerLine {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin: 70px 0 30px 0;
+}
+
+
+
+
+.aside{
+    max-width: 340px;
+    padding: 30px;
+    border: slateblue solid 1px;
+}
+
+.heading{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.wrapper__food {
+    display: flex;
+    gap: 10px;
+}
+.title, .price {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.title {
+    width: 186px;
+}
+.price {
+    border: seagreen 1px solid;
+    width: 84px;
+    text-align: end;
+}
+.massProduct {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #73798C;
+}
