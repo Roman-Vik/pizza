@@ -1,0 +1,180 @@
+.header {
+    display: flex;
+    align-items: baseline;
+    border: #E5E5E5 solid 1px;
+    justify-content: space-between;
+    padding: 25px 200px 21px 110px;
+}
+.wrapper_round {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.round {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #424242;
+}
+
+.line {
+    width: 114px;
+    border-top: 1px dashed #000; /* Параметры линии  */
+}
+
+.headerLine {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin: 70px 0 30px 0;
+}
+
+.aside {
+    max-width: 340px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 55px rgba(0, 0, 0, 0.05);
+    border-radius: 11px;
+}
+
+.heading {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.wrapper__food {
+    display: flex;
+    gap: 10px;
+}
+
+.title, .price {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.title {
+    width: 186px;
+}
+
+.price {
+    width: 84px;
+    text-align: end;
+}
+
+.massProduct {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #73798C;
+}
+
+/*================ order =============================*/
+.order__holder {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 70px 0;
+}
+
+.order__inputFields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order__items > label {
+    display: inline-block;
+    width: 160px;
+    margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order__items > input {
+    width: 270px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D1D3D9;
+    border-radius: 5px;
+}
+
+.order__items__big > label {
+    display: inline-block;
+    width: 160px;
+    margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order__items__big > input {
+    width: 430px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #D1D3D9;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+}
+
+.btn {
+    display: block;
+    padding: 9px 20px 9px 20px;
+    border-radius: 1000px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.order__wraperBtn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__gray {
+    background: #F3F3F7;
+    color: #73798C;
+}
+
+.btn__gray > span {
+    margin-right: 36px;
+}
+
+.btn__orange > span {
+    margin-left: 36px;
+}
+
+.btn__orange {
+    background: #F96900;
+    color: #ffffff;
+}
