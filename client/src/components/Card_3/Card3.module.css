@@ -1,0 +1,130 @@
+.order {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.status {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.status__value {
+    margin-top: 4px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+  
+}
+.order__number {
+    font-family: 'Nunito',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #73798C;
+}
+
+.status__time{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.address {
+    margin-top: 31px;
+    font-family: 'Nunito' sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-top: 2px solid #E2E2E9;
+    border-radius: 2px;
+    padding-top: 9px; 
+}
+.address__add {
+    font-family: 'Nunito' sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+.address__sity {
+    font-family: 'Nunito' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.address__street {
+    font-family: 'Nunito' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+  
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.btn__left {
+    border: none;
+    text-decoration: none;
+    display: block;
+    padding: 13px 19px 13px 20px;
+    background-color: #FFF0E6;
+    color: #D15700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn__right {
+      text-decoration: none;
+      display: block;
+      padding: 13px 19px 13px 20px;
+      background-color: #F96900;
+      color: #ffffff;
+      border-radius: 50px;
+}
+
+@media (max-width: 320px) {
+    .order {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .status {
+      display: block;
+    }
+    .status__value {
+      font-size: 24px;
+    }
+    .status__time {
+      display: none;
+    }
+    .address {
+      padding: 18px 21px 18px 20px;
+      border-radius: 10px;
+      background-color: #F3F3F7;
+      border-top: none;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .button {
+      flex-direction: column;
+      text-align: center;
+    }
+    .btn__right {
+      margin-top: 10px;
+    }
+    .address__sity {
+      margin-top: 4px;
+    }
+    
+  }

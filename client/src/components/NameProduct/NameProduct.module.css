@@ -7,3 +7,9 @@
     color: #000000;
     margin-bottom: 40px
 }
+
+@media (max-width: 459px) {
+    .cards__headerline {
+        display: none;
+    }
+}
