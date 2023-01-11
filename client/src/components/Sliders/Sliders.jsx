@@ -19,8 +19,7 @@ export function Sliders() {
 				}}
 				pagination={{ clickable: true }}
 				scrollbar={{ draggable: true }}
-				onSwiper={(swiper) => console.log(swiper)}
-				onSlideChange={() => console.log("slide change")}
+				onSwiper={(swiper) => swiper}
 			>
 				<SwiperSlide>
 					<img

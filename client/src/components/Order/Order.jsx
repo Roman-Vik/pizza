@@ -1,14 +1,14 @@
 import s from './Order.module.css'
 import {Container} from "../Container/Container";
 import {Footer} from "../../UI/Footer/Footer";
+import {DoDoPizza} from "../DoDoPizza/DoDoPizza";
+
 
 export function Order() {
     return (
         <>
-            <Container>
-                <header>
-                    <div className={`${s.container}`}>
-                        <div>BRAND IMAGES</div>
+                <header className={s.header}>
+                        <DoDoPizza/>
                         <ol className={s.wrapper_round}>
                             <li className={s.round}>1</li>
                             <div className={s.line}></div>
@@ -16,8 +16,8 @@ export function Order() {
                             <div className={s.line}></div>
                             <li className={s.round}>3</li>
                         </ol>
-                    </div>
                 </header>
+            <Container>
                 <main>
                     <h2 className={s.headerLine}>Заказ на доставку</h2>
                     <div className={s.order__holder}>
@@ -70,7 +70,6 @@ export function Order() {
                 </main>
                 <Footer/>
             </Container>
-
         </>
     )
 }

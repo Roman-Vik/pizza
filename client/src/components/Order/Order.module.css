@@ -1,21 +1,15 @@
-.container {
+.header {
     display: flex;
-    border: seagreen solid 2px;
+    align-items: baseline;
+    border: #E5E5E5 solid 1px;
     justify-content: space-between;
-    padding-right: 90px;
+    padding: 25px 200px 21px 110px;
 }
-
-.status {
-    border: seagreen 1px solid;
-    display: flex;
-}
-
 .wrapper_round {
     display: flex;
     gap: 8px;
     align-items: center;
 }
-
 .round {
     width: 32px;
     height: 32px;
@@ -25,10 +19,6 @@
     align-items: center;
     background: #FFFFFF;
     border: 1px solid #424242;
-}
-
-.x {
-    display: flex;
 }
 
 .line {
@@ -45,7 +35,6 @@
     color: #000000;
     margin: 70px 0 30px 0;
 }
-
 
 .aside {
     max-width: 340px;
@@ -102,11 +91,13 @@
     justify-content: space-between;
     padding: 0 0 70px 0;
 }
+
 .order__inputFields {
     display: flex;
     flex-direction: column;
-    gap: 20px ;
+    gap: 20px;
 }
+
 .order__items > label {
     display: inline-block;
     width: 160px;
@@ -118,6 +109,7 @@
     line-height: 22px;
     color: #000000;
 }
+
 .order__items > input {
     width: 270px;
     height: 40px;
@@ -145,11 +137,12 @@
     border: 1px solid #D1D3D9;
     border-radius: 5px;
 }
-.btn{
+
+.btn {
     border: none;
 }
-.btn {
 
+.btn {
     display: block;
     padding: 9px 20px 9px 20px;
     border-radius: 1000px;
@@ -161,22 +154,26 @@
     font-size: 16px;
     line-height: 22px;
 }
-.order__wraperBtn{
- margin-top: 50px;
- display: flex;
+
+.order__wraperBtn {
+    margin-top: 50px;
+    display: flex;
     justify-content: space-between;
 }
+
 .btn__gray {
     background: #F3F3F7;
     color: #73798C;
 }
+
 .btn__gray > span {
     margin-right: 36px;
 }
 
-.btn__orange > span{
+.btn__orange > span {
     margin-left: 36px;
 }
+
 .btn__orange {
     background: #F96900;
     color: #ffffff;

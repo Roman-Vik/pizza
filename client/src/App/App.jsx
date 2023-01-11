@@ -5,7 +5,6 @@ import {Main} from "../UI/Main/Main";
 import {Footer} from "../UI/Footer/Footer";
 import {Order} from "../components/Order/Order";
 
-
 export function App() {
     const [data, setData] = useState('')
 
@@ -24,11 +23,10 @@ export function App() {
 
     return (
         <>
-
-            {/*<Order/>*/}
-            {/*<Header/>*/}
-            {/*<Main/>*/}
-            {/*<Footer/>*/}
+            <Order/>
+            <Header/>
+            <Main/>
+            <Footer/>
         </>
     );
 }
