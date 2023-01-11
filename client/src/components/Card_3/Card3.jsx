@@ -14,7 +14,7 @@ export function Card3() {
             <span className={s.address__add}>Доставим по адресу:&nbsp;</span>
             <span className={s.address__sity}>Москва, ул. 1-я&nbsp;</span>
             <span className={s.address__street}>Машиностроения, д. 10</span>
-         </div>
+        </div>
           <div className={s.button}>
             <button className={s.btn__left} href="/">Отменить заказ</button>
             <a className={s.btn__right} href="/">Вернуться в меню</a>
