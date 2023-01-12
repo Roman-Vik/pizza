@@ -1,21 +1,19 @@
-:root {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-    margin: 0 auto;
-    max-width: 1280px;
-    border: #D15700 1px dotted;
+body {
+	margin: 0 auto;
+	max-width: 1280px;
+	border: #d15700 1px dotted;
 }
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 img {
-    display: block;
+	display: block;
 }
-
-
