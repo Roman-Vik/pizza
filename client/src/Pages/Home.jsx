@@ -18,10 +18,11 @@ export function Home ()  {
             }
         ).then(data => data.json()).then(d => setData(d))
     },[])
-    const listPages = data.list
+
+
   return (
     <>
-        <Main listPages={listPages}/>
+        <Main data={data}/>
     </>
   )
 }
