@@ -4,7 +4,7 @@ import {DoDoPizza} from "../../components/DoDoPizza/DoDoPizza";
 
 export function Header() {
     return (
-        <>
+        <header>
             <Container>
                 <div className={s.header}>
                     <DoDoPizza/>
@@ -14,6 +14,6 @@ export function Header() {
                     </div>
                 </div>
             </Container>
-        </>
+        </header>
     );
 }
