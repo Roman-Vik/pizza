@@ -1,0 +1,11 @@
+.fooCard {
+    width: 100%;
+    background: rgb(70, 76, 85);
+    padding-top: 59px;
+
+}
+.right{
+    width: max-content;
+    margin-left:auto;
+
+}

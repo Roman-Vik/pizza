@@ -2,16 +2,14 @@
     display: flex;
     background-color: hsl(216, 10%, 31%);
     padding: 40px 0 46px 0;
+    border-top:  1px solid  rgba(255, 255, 255, 0.2);
 }
-
-
 .ftr__copyright {
     display: flex;
     color: rgb(199, 200, 203);
     align-items: center;
     gap: 28px;
 }
-
 .ftr__cop {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -21,7 +19,6 @@
     color: #FFFFFF;
     opacity: 0.7;
 }
-
 .ftr__links {
     display: flex;
     gap: 20px;

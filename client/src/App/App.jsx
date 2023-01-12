@@ -4,6 +4,8 @@ import {Header} from "../UI/Header/Header";
 import {Main} from "../UI/Main/Main";
 import {Footer} from "../UI/Footer/Footer";
 import {Order} from "../components/Order/Order";
+import {FooterCard} from "../UI_Cards/FooterCard/FooterCard";
+
 
 export function App() {
     const [data, setData] = useState('')
@@ -18,15 +20,16 @@ export function App() {
                 }
             }
         ).then(data => data.json()).then(d => setData(d))
-
-    }, [])
+    })
+    const listPages = data.list
 
     return (
         <>
-            <Order/>
+            <FooterCard/>
             <Header/>
-            <Main/>
+            <Main listPages={listPages}/>
             <Footer/>
+
         </>
     );
 }

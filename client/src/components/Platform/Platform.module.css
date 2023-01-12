@@ -4,6 +4,7 @@
 }
 
 .reference__img > img {
+    margin-bottom: 29px;
     width: 135px;
     height: 40px;
 }
