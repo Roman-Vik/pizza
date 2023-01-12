@@ -1,0 +1,15 @@
+.text {
+    padding: 100px;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+    
+}
+
+.smile {
+    font-size: 70px;
+}
+
+.description {
+    font-size: 22px;
+}
