@@ -5,6 +5,11 @@ import {Main} from "../UI/Main/Main";
 import {Footer} from "../UI/Footer/Footer";
 import {Order} from "../components/Order/Order";
 import {FooterCard} from "../UI_Cards/FooterCard/FooterCard";
+import {HeaderCard} from "../UI_Cards/HeaderCard/HeaderCard";
+import {CartBasket} from "../UI_Cards/CartBasket/CartBasket";
+import {CardFillingData} from "../UI_Cards/CardFillingData/CardFillingData";
+import {CardDelivery} from "../UI_Cards/CardDelivery/CardDelivery";
+
 
 export function App() {
 	const [data, setData] = useState("");
@@ -24,11 +29,14 @@ export function App() {
     
     return (
         <>
-            <FooterCard/>
-            <Header/>
-            <Main listPages={listPages}/>
-            <Footer/>
+            <h1>✓</h1>
+            <CardDelivery/>
+          {/*<CardFillingData/>*/}
+         {/*<CartBasket/>*/}
 
+            {/*<Header/>*/}
+            {/*<Main listPages={listPages}/>*/}
+            {/*<Footer/>*/}
         </>
     );
 }
