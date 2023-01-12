@@ -32,7 +32,7 @@ export function Basket() {
 								</p>
 							</div>
 						</div>
-						
+
 						<div className={s.btn_info}>
 							<div className={s.btn}>
 								<button className={s.btn_min}>-</button>
@@ -86,7 +86,6 @@ export function Basket() {
 					<div className={s.div_h2}>
 						<h2 className={s.h2}>Добавить к заказу?</h2>
 					</div>
-
 					<div>
 						<Swiper
 							slidesPerView={3}

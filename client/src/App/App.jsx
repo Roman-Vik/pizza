@@ -6,9 +6,8 @@ import {Footer} from "../UI/Footer/Footer";
 import {Order} from "../components/Order/Order";
 import {FooterCard} from "../UI_Cards/FooterCard/FooterCard";
 
-
 export function App() {
-    const [data, setData] = useState('')
+	const [data, setData] = useState("");
 
     useEffect(() => {
         fetch("http://localhost:5000/api",
@@ -22,7 +21,7 @@ export function App() {
         ).then(data => data.json()).then(d => setData(d))
     })
     const listPages = data.list
-
+    
     return (
         <>
             <FooterCard/>
