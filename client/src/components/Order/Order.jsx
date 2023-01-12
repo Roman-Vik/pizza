@@ -1,22 +1,10 @@
 import s from './Order.module.css'
 import {Container} from "../Container/Container";
 import {Footer} from "../../UI/Footer/Footer";
-import {DoDoPizza} from "../DoDoPizza/DoDoPizza";
-
 
 export function Order() {
     return (
         <>
-                <header className={s.header}>
-                        <DoDoPizza/>
-                        <ol className={s.wrapper_round}>
-                            <li className={s.round}>1</li>
-                            <div className={s.line}></div>
-                            <li className={s.round}>2</li>
-                            <div className={s.line}></div>
-                            <li className={s.round}>3</li>
-                        </ol>
-                </header>
             <Container>
                 <main>
                     <h2 className={s.headerLine}>Заказ на доставку</h2>
@@ -40,7 +28,6 @@ export function Order() {
                                 <button className={`${s.btn} ${s.btn__gray}`}>  <span> &#65308;</span> Вернуться в меню  </button>
                                 <button className={`${s.btn} ${s.btn__orange}`}>Оформить заказ <span> &#65310;</span>  </button>
                             </div>
-
                             </div>
                         <div className={s.aside}>
                             <ul className={s.heading}>Состав заказа
@@ -68,7 +55,6 @@ export function Order() {
                         </div>
                     </div>
                 </main>
-                <Footer/>
             </Container>
         </>
     )

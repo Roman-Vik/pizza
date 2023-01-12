@@ -7,8 +7,11 @@ export function FooterCard() {
 
     return (
         <div className={s.fooCard}>
-            <Container>
-                <Contacts/>
+            < Container>
+                <div className={s.fooCard__wrapperContacts}>
+                    < Contacts/>
+                </div>
+
             </Container>
             <div>
                 <Footer/>

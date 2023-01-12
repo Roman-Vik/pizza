@@ -41,7 +41,14 @@
     }
   ],
   "products": {
-    "new products": [
+    "pages" :  [
+      "Пицца",
+      "Комбо",
+      "Закуски",
+      "Десерты",
+      "Напитки"
+    ],
+    "novelty": [
       {
         "title": "Цезарь",
         "img": "./photo/pizza1.png",

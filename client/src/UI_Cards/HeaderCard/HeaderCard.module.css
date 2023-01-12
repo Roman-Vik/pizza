@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: baseline;
+    border: #E5E5E5 solid 1px;
+    justify-content: space-between;
+    padding: 25px 200px 21px 110px;
+}
+.wrapper_round {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.round {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #424242;
+}
+.line {
+    width: 114px;
+    border-top: 1px dashed #000; /* Параметры линии  */
+}
