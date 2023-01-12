@@ -29,27 +29,25 @@ export function Sliders() {
 					</SwiperSlide>
 
 					<SwiperSlide className={s.com_card}>
-						<img
-							src={require("../images/slider/slide-reght.png")}
-							className={s.card}
-							alt="slide-central.webp"
-						/>
+						<div className={s.slidesPerView}>
+							<img
+								src={require("../images/slider/slide-reght.png")}
+								className={s.card}
+								alt="slide-central.webp"
+							/>
+						</div>
 					</SwiperSlide>
 					<SwiperSlide className={s.com_card}>
-						<img
-							src={require("../images/slider/slide-left.png")}
-							className={s.card}
-							alt="slide-central.webp"
-						/>
+						<div className={s.slidesPerView}>
+							<img
+								src={require("../images/slider/slide-left.png")}
+								className={s.card}
+								alt="slide-central.webp"
+							/>
+						</div>
 					</SwiperSlide>
 				</Swiper>
 			</div>
 		</>
 	);
 }
-
-<img
-	src={require("../images/slider/slide-left.png")}
-	className={s.card}
-	alt="slide-central.webp"
-/>;
