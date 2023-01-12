@@ -10,6 +10,7 @@ import {New} from "../../components/New/New";
 import {Sliders} from "../../components/Sliders/Sliders";
 
 export function Main({data}){
+
     return (
         <main>
     <section>
