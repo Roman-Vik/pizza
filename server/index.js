@@ -19,8 +19,6 @@ app.get('/pizza', (req, res)=>{
     res.send('Pizza')
 })
 app.get('/api', (req, res)=>{
-
-    console.log('api')
     return res.status(201).json(data)
 })
 

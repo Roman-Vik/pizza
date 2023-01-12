@@ -1,14 +1,12 @@
 import s from "./Ul.module.css"
 
-export function Ul() {
+export function Ul({listPages}) {
     return (
     <nav>
         <ul className={s.menu__list}>
-            <li className={s.menu__item}><a href="src/components/Ul/Ul#" className={s.menu__link}>Пицца</a></li>
-            <li className={s.menu__item}><a href="src/components/Ul/Ul#" className={s.menu__link}>Комбо</a></li>
-            <li className={s.menu__item}><a href="src/components/Ul/Ul#" className={s.menu__link}>Закуски</a></li>
-            <li className={s.menu__item}><a href="src/components/Ul/Ul#" className={s.menu__link}>Дессерты</a></li>
-            <li className={s.menu__item}><a href="src/components/Ul/Ul#" className={s.menu__link}>Другие товаты</a></li>
+            {/*{listPages.map((el)=> {*/}
+            {/*    return <li  className={s.menu__item}><a key={el} href="src/components/Ul/Ul#" className={s.menu__link}>{el}</a></li>*/}
+            {/*})}*/}
         </ul>
     </nav>
         

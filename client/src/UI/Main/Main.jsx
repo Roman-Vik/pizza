@@ -1,7 +1,6 @@
 import s from "./Main.module.css"
 import { Ul } from "../../components/Ul/Ul"
 import { Button } from "../../components/Button/Button"
-
 import { Card } from "../../components/Card/Card";
 import { NameProduct } from "../../components/NameProduct/NameProduct";
 import { Reference } from "../../components/Reference/Reference";
@@ -10,13 +9,13 @@ import { Statistic } from "../../components/Statistic/Statistic";
 import {New} from "../../components/New/New";
 import {Sliders} from "../../components/Sliders/Sliders";
 
-export function Main() {
+export function Main({listPages}) {
     return (
         <main>
     <section>
         <Container>
             <div className={s.menu}>
-                <Ul></Ul>
+                <Ul listPages={listPages}></Ul>
                 <Button></Button>
             </div>
         </Container>
