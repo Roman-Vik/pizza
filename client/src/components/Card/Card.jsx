@@ -11,6 +11,7 @@ export function Card() {
                         <div className={s.cards__description}>
                             <h3 className={s.cards__title}>Пицца из половинок</h3>
                             <p className={s.cards__text}> Соберите свою пиццу 35 см с двумя разными вкусами</p>
+                            <p className={s.cards__text__epmty}>от 600 ₽</p>
                         </div>
                         <div className={s.cards__option}>
                             <p className={s.cards__price}>от 600 ₽</p>

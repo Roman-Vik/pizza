@@ -20,8 +20,6 @@ export function App() {
 			.then((d) => setData(d));
 	}, []);
 
-	console.log(data);
-
 	return (
 		<>
 			{/* <Order/> */}
@@ -30,4 +28,5 @@ export function App() {
 			{/* <Footer/>   */}
 		</>
 	);
+
 }
