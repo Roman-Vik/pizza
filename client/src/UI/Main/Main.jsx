@@ -9,13 +9,13 @@ import { Statistic } from "../../components/Statistic/Statistic";
 import {New} from "../../components/New/New";
 import {Sliders} from "../../components/Sliders/Sliders";
 
-export function Main({listPages}) {
+export function Main({data}){
     return (
         <main>
     <section>
         <Container>
             <div className={s.menu}>
-                <Ul listPages={listPages}></Ul>
+                <Ul data={data}></Ul>
                 <Button></Button>
             </div>
         </Container>
