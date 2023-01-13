@@ -1,28 +1,28 @@
-import React from 'react'
-import {useState, useEffect} from "react";
+import React from "react";
+import { useState, useEffect } from "react";
+import { Card } from "../components/Card/Card";
 
-import {Main} from "../UI/Main/Main";
+import { Main } from "../UI/Main/Main";
 
+export function Home() {
+	const [data, setData] = useState({});
 
-export function Home ()  {
-    const [data, setData] = useState({});
+	useEffect(() => {
+		fetch("http://localhost:5000/api", {
+			method: "GET",
+			headers: {
+				"Content-Type": "application/json",
+				"Access-Control-Allow-Origin": "*"
+			}
+		})
+			.then((data) => data.json())
+			.then((d) => setData(d));
+	}, []);
 
-    useEffect(() => {
-        fetch("http://localhost:5000/api",
-            {
-                method: "GET",
-                headers: {
-                    "Content-Type": "application/json",
-                    'Access-Control-Allow-Origin': '*'
-                }
-            }
-        ).then(data => data.json()).then(d => setData(d))
-    },[])
-
-
-  return (
-    <>
-        <Main data={data}/>
-    </>
-  )
+	return (
+		<>
+            
+			<Main data={data} />
+		</>
+	);
 }
