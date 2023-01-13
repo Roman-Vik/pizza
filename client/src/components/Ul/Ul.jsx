@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom"
 import s from "./Ul.module.css"
 
@@ -18,3 +19,4 @@ export function Ul({data}) {
         </nav>
     )
 }
+
