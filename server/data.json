@@ -40,6 +40,11 @@
       ]
     }
   ],
+   "sliders": [
+      "http://127.0.0.1:5000/photos/slider/slide-left.png",
+      "http://127.0.0.1:5000/photos/slider/slide-central.webp",
+      "http://127.0.0.1:5000/photos/slider/slide-reght.png"
+   ],
   "products": {
     "pages" :  [
       "Пицца",
@@ -51,22 +56,22 @@
     "novelty": [
       {
         "title": "Цезарь",
-        "img": "../images/items/pizza/pizza-1.webp",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-9.png",
         "price": "445"
       },
       {
         "title": "Нежный лосось",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-10.png",
         "price": "495"
       },
       {
         "title": "2 пиццы",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-11.png",
         "price": "899"
       },
       {
         "title": "Карбонара",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-12.png",
         "price": "395"
       }
     ],
@@ -74,78 +79,97 @@
       "new": [
         {
           "title": "Чиззи чеддер",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
           "description": "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
           "price": "625"
         },
         {
           "title": "Цыпленок блю чиз",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5-2x.webp",
           "description": "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
           "price": "445"
         },
         {
           "title": "Нежный лосось",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6-2x.webp",
           "description": "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
           "price": "495"
         },
         {
           "title": "Пицца из половинок",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1-2x.webp",
           "description": "Соберите свою пиццу 35 см с двумя разными вкусами",
           "price": "245"
         }
       ],
       "two in one": {
         "title": "Сырная",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7-2x.webp",
         "description": "Сырная",
         "price": "600"
       },
       "other": [
         {
           "title": "Пепперони-сердце",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-2.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
           "description": "Пикантная пепперони, моцарелла, томатный соус",
           "price": "625"
         },
         {
           "title": "Пепперони фреш",
-          "img": "./photo/pizza1.png",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8-2x.webp",
           "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
           "price": "245"
+        },
+        {
+          "title": "Пирог-сердцe",
+          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3.webp",
+          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3-2x.webp",
+          "description": "Ананасы, брусника, сгущенное молоко",
+          "price": "625"
         }
       ]
     },
-    "Combo": [
+    "combo": [
       {
         "title": "Комбо за 599 ₽",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/combo/combo-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/combo/combo-1-2x.webp",
         "description": "Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.",
         "price": "599"
       },
       {
         "title": "2 пиццы",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/combo/combo-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/combo/combo-1-2x.webp",
         "description": "Самое популярное комбо из 2 пицц 30 см. Большой выбор",
         "price": "899"
       },
       {
         "title": "2 пиццы по 25 см и закуска",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/combo/combo-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/combo/combo-1-2x.webp",
         "description": "2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек",
         "price": "799"
       },
       {
         "title": "Пицца 30 см и 2 закуски",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/combo/combo-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/combo/combo-1-2x.webp",
         "description": "Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек",
         "price": "799"
       },
       {
         "title": "Комбо за 999 ₽",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/combo/combo-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/combo/combo-2-2x.webp",
         "description": "3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен",
         "price": "999"
       }
@@ -153,31 +177,36 @@
     "hot": [
       {
         "title": "Томатный суп с гренками",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/snacks/snack-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-1-2x.webp",
         "description": "Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов",
         "price": "99"
       },
       {
         "title": "Томатный суп с митболами",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/snacks/snack-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-1-2x.webp",
         "description": "Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов",
         "price": "99"
       },
       {
         "title": "Додстер",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/snacks/snack-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-2-2x.webp",
         "description": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
         "price": "159"
       },
       {
         "title": "Острый Додстер",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/snacks/snack-3.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-3-2x.webp",
         "description": "Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
         "price": "159"
       },
       {
         "title": "Додстер Чипотле",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/snacks/snack-4.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-4-2x.webp",
         "description": "Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке",
         "price": "159"
       }
@@ -185,25 +214,29 @@
     "desserts": [
       {
         "title": "Яблочный пирог",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-1-2x.webp",
         "description": "Десерт из песочного теста с яблочной начинкой. Может содержать изюм",
         "price": "119"
       },
       {
         "title": "Чизкейк Нью-Йорк",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-2-2x.webp",
         "description": "Классический американский творожный десерт",
         "price": "219"
       },
       {
         "title": "Фонданы, 2 шт",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-3.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-3-2x.webp",
         "description": "Два десерта с хрустящей корочкой и топлёной шоколадной начинкой",
         "price": "290"
       },
       {
         "title": "Молочный коктейль с печеньем Орео",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-4.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-4-2x.webp",
         "description": "Напиток из молока и мороженого с добавлением дробленого печенья «Орео»",
         "price": "175"
       },
@@ -217,41 +250,73 @@
     "sodas": [
       {
         "title": "2 Coca-Cola по суперцене",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-1-2x.webp",
         "description": "Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л",
         "price": "119"
       },
       {
         "title": "Coca-Cola Orange",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-2-2x.webp",
         "description": "0,5 л",
         "price": "95"
       },
       {
         "title": "Coca-Cola Zero",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-2-2x.webp",
         "description": "0,5 л",
         "price": "95"
       },
       {
         "title": "Coca-Cola Vanilla",
-        "img": "./photo/pizza1.png",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-5.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-5-2x.webp",
         "description": "0,5 л",
         "price": "95"
       },
       {
-        "title": "Coca-Cola",
-        "img": "./photo/pizza1.png",
+        "title": "Coca-Cola без сахара",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-3.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-3-2x.webp",
+        "description": "0,5 л",
+        "price": "95"
+      },
+      {
+        "title": "Coca-Cola Classic",
+        "img": "http://127.0.0.1:5000/photos/items/drinks/drink-4.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-4-2x.webp",
         "description": "0,5 л",
         "price": "95"
       }
     ]
   },
   "links": [
-    "img",
-    "img",
-    "img",
-    "img",
-    "img"
-  ]
+    { "img": "http://127.0.0.1:5000/photos/icons/fb.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/fb-2x.png"
+    },
+    { "img": "http://127.0.0.1:5000/photos/icons/inst.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/inst-2x.png"
+    },
+    { "img": "http://127.0.0.1:5000/photos/icons/ok.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/ok-2x.png"
+    },
+    { "img": "http://127.0.0.1:5000/photos/icons/vk.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/vk-2x.png"
+    },
+    { "img": "http://127.0.0.1:5000/photos/icons/youtube.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/youtube-2x.png"
+    }
+  ],
+   "mobStore": [
+     { "img": "http://127.0.0.1:5000/photos/icons/gplay.png",
+       "imgX2": "http://127.0.0.1:5000/photos/icons/gplay-2x.png"
+     },
+     { "img": "http://127.0.0.1:5000/photos/icons/appstore.png",
+       "imgX2": "http://127.0.0.1:5000/photos/icons/appstore-2x.png"
+     }
+   ],
+   "logoImg":  "http://127.0.0.1:5000/photos/icons/logo.svg",
+   "check": "http://127.0.0.1:5000/photos/icons/check.svg"
 }

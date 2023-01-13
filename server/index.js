@@ -9,9 +9,10 @@ const port =  5000
 
 app.use(express.json())
 app.use(cors())
+
 app.use(
     '/photos',
-    express.static(`./assets/images/dodoPizza.svg`)
+    express.static(`./assets/images/`)
 );
 
 
