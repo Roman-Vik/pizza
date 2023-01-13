@@ -10,6 +10,7 @@ import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
 
 export function Main({ data }) {
+	console.log(data);
 	return (
 		<main>
 			<section>
@@ -24,20 +25,22 @@ export function Main({ data }) {
 				<Sliders />
 				<Container>
 					<New data={data} />
-					<NameProduct></NameProduct>
-					<div className={s.cards__items}>
-						{data?.products?.pizzas?.new.map((el, i) => (
-							<Card
-								key={i}
-								img={el.img}
-								title={el.title}
-								description={el.description}
-								price={el.price}
-							>
-								{el}
-							</Card>
-						))}
-					</div>
+					<NameProduct data={data}>
+						<div className={s.cards__items}>
+							{data?.products?.pizzas?.new.map((el, i) => (
+								<Card
+									key={i}
+									// img={el.img}
+									// title={el.title}
+									// description={el.description}
+									// price={el.price}
+									{...el}
+								>
+									{el}
+								</Card>
+							))}
+						</div>
+					</NameProduct>
 				</Container>
 			</section>
 			<section className={s.reference}>
