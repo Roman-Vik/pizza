@@ -8,6 +8,8 @@ import {Order} from "../components/Order/Order";
 import {FooterCard} from "../UI_Cards/FooterCard/FooterCard";
 import { Home } from '../Pages/Home';
 import { NotFound } from '../Pages/NotFound';
+import { Pizza } from '../Pages/Pizza';
+
 
 export function App() {
     return (
@@ -15,6 +17,7 @@ export function App() {
         <Header/>
          <Routes>
             <Route path="/" element={<Home></Home>}></Route>
+            <Route path="/pizza" element={<Pizza></Pizza>}></Route>
             <Route path="*" element={<NotFound></NotFound>}></Route>
          </Routes>
         <Footer/>

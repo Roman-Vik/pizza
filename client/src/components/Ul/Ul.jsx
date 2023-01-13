@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import s from "./Ul.module.css"
 
 export function Ul({data}) {
@@ -7,8 +8,8 @@ export function Ul({data}) {
             <ul className={s.menu__list}>
                 {
                    data?.list?.map( (el,i)=> <li className={s.menu__item}>
-                        <a href="src/components/Ul/Ul#"
-                           className={s.menu__link}>{el}</a></li> )
+                        <Link href=""
+                           className={s.menu__link}>{el}</Link></li> )
                 }
                 <li className={s.menu__item}>
                     <a href="src/components/Ul/Ul#"
