@@ -13,6 +13,7 @@
 }
 
 .radius {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +26,14 @@
 
 }
 .wrapper_img{
+position: absolute;
     width: 372px;
     height: 372px;
-
+    z-index: 10  ;
 }
 .wrapper_img > img{
+    position: absolute;
+
     display: block;
     width: 372px;
     height: 372px;
