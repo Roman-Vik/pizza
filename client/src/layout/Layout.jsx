@@ -1,0 +1,5 @@
+function Layout({children}) {
+
+    {children}
+
+}
