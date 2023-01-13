@@ -29,7 +29,7 @@ export function Main({ data }) {
 						{data?.products?.pizzas?.new.map((el, i) => (
 							<Card
 								key={i}
-								img={el.img}
+								img={"http://127.0.0.1:5000/photos/slider/slide-left.png"}
 								title={el.title}
 								description={el.description}
 								price={el.price}

@@ -16,7 +16,7 @@ export function New({data}) {
 							<div className={s.wrap}>
 								<img
 									className={s.img}
-									src={'http://localhost:5000/photos'}
+									src={el.img}
 									alt="&#127829"
 								/>
 							</div>

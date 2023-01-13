@@ -1,14 +1,13 @@
-
- {
-   "logos": {
-     "dodoPizza":"http://127.0.0.1:5000/photos/dodoPizza.svg",
-     "letter-logo":"http://127.0.0.1:5000/photos/letter-logo.svg",
-     "letter-logo-gray":"http://127.0.0.1:5000/photos/letter-logo-gray.svg",
-     "logo":"http://127.0.0.1:5000/photos/logo.svg",
-     "tagline":"http://127.0.0.1:5000/photos/tagline.svg",
-     "logoImg":  "http://127.0.0.1:5000/photos/icons/logo.svg",
-     "check": "http://127.0.0.1:5000/photos/icons/check.svg"
-   },
+{
+  "logos": {
+    "dodoPizza": "http://127.0.0.1:5000/photos/dodoPizza.svg",
+    "letter-logo": "http://127.0.0.1:5000/photos/letter-logo.svg",
+    "letter-logo-gray": "http://127.0.0.1:5000/photos/letter-logo-gray.svg",
+    "logo": "http://127.0.0.1:5000/photos/logo.svg",
+    "tagline": "http://127.0.0.1:5000/photos/tagline.svg",
+    "logoImg": "http://127.0.0.1:5000/photos/icons/logo.svg",
+    "check": "http://127.0.0.1:5000/photos/icons/check.svg"
+  },
   "list": [
     "Пицца",
     "Комбо",
@@ -50,13 +49,13 @@
       ]
     }
   ],
-   "sliders": [
-      "http://127.0.0.1:5000/photos/slider/slide-left.png",
-      "http://127.0.0.1:5000/photos/slider/slide-central.webp",
-      "http://127.0.0.1:5000/photos/slider/slide-reght.png"
-   ],
+  "sliders": [
+    "http://127.0.0.1:5000/photos/slider/slide-left.png",
+    "http://127.0.0.1:5000/photos/slider/slide-central.webp",
+    "http://127.0.0.1:5000/photos/slider/slide-reght.png"
+  ],
   "products": {
-    "pages" :  [
+    "pages": [
       "Пицца",
       "Комбо",
       "Закуски",
@@ -89,68 +88,64 @@
         "price": "395"
       }
     ],
-    "pizzas": {
-      "new": [
-        {
-          "title": "Чиззи чеддер",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
-          "description": "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
-          "price": "625"
-        },
-        {
-          "title": "Цыпленок блю чиз",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5-2x.webp",
-          "description": "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
-          "price": "445"
-        },
-        {
-          "title": "Нежный лосось",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6-2x.webp",
-          "description": "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
-          "price": "495"
-        },
-        {
-          "title": "Пицца из половинок",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1-2x.webp",
-          "description": "Соберите свою пиццу 35 см с двумя разными вкусами",
-          "price": "245"
-        }
-      ],
-      "two in one": {
+    "pizzas": [
+      {
+        "title": "Чиззи чеддер",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
+        "description": "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
+        "price": "625"
+      },
+      {
+        "title": "Цыпленок блю чиз",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5-2x.webp",
+        "description": "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
+        "price": "445"
+      },
+      {
+        "title": "Нежный лосось",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6-2x.webp",
+        "description": "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
+        "price": "495"
+      },
+      {
+        "title": "Пицца из половинок",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1-2x.webp",
+        "description": "Соберите свою пиццу 35 см с двумя разными вкусами",
+        "price": "245"
+      },
+      {
         "title": "Сырная",
         "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7.webp",
         "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7-2x.webp",
         "description": "Сырная",
         "price": "600"
       },
-      "other": [
-        {
-          "title": "Пепперони-сердце",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-2.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
-          "description": "Пикантная пепперони, моцарелла, томатный соус",
-          "price": "625"
-        },
-        {
-          "title": "Пепперони фреш",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8-2x.webp",
-          "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
-          "price": "245"
-        },
-        {
-          "title": "Пирог-сердцe",
-          "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3.webp",
-          "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3-2x.webp",
-          "description": "Ананасы, брусника, сгущенное молоко",
-          "price": "625"
-        }
-      ]
-    },
+      {
+        "title": "Пепперони-сердце",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-2.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
+        "description": "Пикантная пепперони, моцарелла, томатный соус",
+        "price": "625"
+      },
+      {
+        "title": "Пепперони фреш",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8-2x.webp",
+        "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
+        "price": "245"
+      },
+      {
+        "title": "Пирог-сердцe",
+        "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3.webp",
+        "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3-2x.webp",
+        "description": "Ананасы, брусника, сгущенное молоко",
+        "price": "625"
+      }
+    ],
     "combo": [
       {
         "title": "Комбо за 599 ₽",
@@ -333,28 +328,35 @@
     ]
   },
   "links": [
-    { "img": "http://127.0.0.1:5000/photos/icons/fb.png",
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/fb.png",
       "imgX2": "http://127.0.0.1:5000/photos/icons/fb-2x.png"
     },
-    { "img": "http://127.0.0.1:5000/photos/icons/inst.png",
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/inst.png",
       "imgX2": "http://127.0.0.1:5000/photos/icons/inst-2x.png"
     },
-    { "img": "http://127.0.0.1:5000/photos/icons/ok.png",
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/ok.png",
       "imgX2": "http://127.0.0.1:5000/photos/icons/ok-2x.png"
     },
-    { "img": "http://127.0.0.1:5000/photos/icons/vk.png",
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/vk.png",
       "imgX2": "http://127.0.0.1:5000/photos/icons/vk-2x.png"
     },
-    { "img": "http://127.0.0.1:5000/photos/icons/youtube.png",
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/youtube.png",
       "imgX2": "http://127.0.0.1:5000/photos/icons/youtube-2x.png"
     }
   ],
-   "mobStore": [
-     { "img": "http://127.0.0.1:5000/photos/icons/gplay.png",
-       "imgX2": "http://127.0.0.1:5000/photos/icons/gplay-2x.png"
-     },
-     { "img": "http://127.0.0.1:5000/photos/icons/appstore.png",
-       "imgX2": "http://127.0.0.1:5000/photos/icons/appstore-2x.png"
-     }
-   ]
+  "mobStore": [
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/gplay.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/gplay-2x.png"
+    },
+    {
+      "img": "http://127.0.0.1:5000/photos/icons/appstore.png",
+      "imgX2": "http://127.0.0.1:5000/photos/icons/appstore-2x.png"
+    }
+  ]
 }
