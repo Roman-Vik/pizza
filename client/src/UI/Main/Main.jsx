@@ -24,7 +24,7 @@ export function Main({data}){
     <section className={s.range}>
         <Sliders/>
         <Container>
-            <New/>
+            <New data={data}/>
             <NameProduct></NameProduct>
          <div className={s.cards__items}>
             <Card></Card>

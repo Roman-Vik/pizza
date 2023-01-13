@@ -9,6 +9,12 @@ const port =  5000
 
 app.use(express.json())
 app.use(cors())
+app.use(
+    '/photos',
+    express.static(`./assets/images/dodoPizza.svg`)
+);
+
+
 app.get('/home', (req, res)=>{
     res.status(200).type('text/plain')
     res.send('Home page')
@@ -21,6 +27,8 @@ app.get('/pizza', (req, res)=>{
 app.get('/api', (req, res)=>{
     return res.status(201).json(data)
 })
+
+
 
 app.listen(port,host, ()=>{
     console.log(`Server listens http://${host}:${port}`)

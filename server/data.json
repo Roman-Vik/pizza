@@ -51,7 +51,7 @@
     "novelty": [
       {
         "title": "Цезарь",
-        "img": "./photo/pizza1.png",
+        "img": "../images/items/pizza/pizza-1.webp",
         "price": "445"
       },
       {

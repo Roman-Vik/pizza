@@ -2,8 +2,6 @@ import s from "./Ul.module.css"
 
 export function Ul({data}) {
 
-console.log(data)
-
     return (
         <nav>
             <ul className={s.menu__list}>
