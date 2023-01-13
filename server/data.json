@@ -10,11 +10,26 @@
      "check": "http://127.0.0.1:5000/photos/icons/check.svg"
    },
   "list": [
-    "Пицца",
-    "Комбо",
-    "Закуски",
-    "Десерты",
-    "Напитки"
+    {
+      "text": "Пицца",
+      "path": "/pizza"
+    },
+    {
+      "text": "Кобмо",
+      "path": "/combo"
+    },
+    {
+      "text": "Закуски",
+      "path": "/snacks"
+    },
+    {
+      "text": "Десерты",
+      "path": "/desserts"
+    },
+    {
+      "text": "Напитки",
+      "path": "/drinks"
+    }
   ],
   "listInfo": [
     {

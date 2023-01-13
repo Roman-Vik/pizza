@@ -9,11 +9,11 @@ export function Ul({data}) {
             <ul className={s.menu__list}>
                 {
                    data?.list?.map( (el,i)=> <li className={s.menu__item}>
-                        <Link to=""
-                           className={s.menu__link}>{el}</Link></li> )
+                        <Link to={el.path}
+                           className={s.menu__link}>{el.text}</Link></li> )
                 }
                 <li className={s.menu__item}>
-                    <Link to="src/components/Ul/Ul#"
+                    <Link to="/other"
                        className={s.menu__link}>Другие товары</Link></li>
             </ul>
         </nav>
