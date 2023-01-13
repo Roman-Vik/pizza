@@ -1,5 +1,6 @@
 import s from "./Card3.module.css"
 import { Container } from "../Container/Container"
+import { Link } from "react-router-dom"
 
 
 export function Card3() {
@@ -17,7 +18,7 @@ export function Card3() {
         </div>
           <div className={s.button}>
             <button className={s.btn__left} href="/">Отменить заказ</button>
-            <a className={s.btn__right} href="/">Вернуться в меню</a>
+            <Link className={s.btn__right} to="/">Вернуться в меню</Link>
           </div>
         </div>
     </Container>

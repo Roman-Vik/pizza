@@ -10,6 +10,7 @@ import icon5 from "..//..//components/images/cart/image 2-2x-2.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
+import { Link } from "react-router-dom";
 
 export function Basket() {
 	return (
@@ -153,7 +154,7 @@ export function Basket() {
 				<section className={s.head_btn}>
 					<div className={s.cont_btn}>
 						<button className={s.btn_back}>Вернуться в меню</button>
-						<button className={s.btn_start}>Оформить заказ</button>
+						<button className={s.btn_start}><Link to="/order">Оформить заказ</Link></button>
 					</div>
 				</section>
 			</Container2>
