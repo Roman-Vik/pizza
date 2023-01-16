@@ -10,7 +10,7 @@ export function Ul({ data }) {
 						<Link to={el.path} className={s.menu__link}>
 							{el.text}
 						</Link>
-					</li>
+					</li> 
 				))}
 				<li className={s.menu__item}>
 					<Link to="/other" className={s.menu__link}>
