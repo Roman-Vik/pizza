@@ -1,7 +1,14 @@
-import s from "./NameProduct.module.css"
+import s from "./NameProduct.module.css";
 
-export function NameProduct() {
-    return (
-        <h2 className={s.cards__headerline}>Пицца</h2>
-    )
+export function NameProduct({ data, children }) {
+	return (
+		<>
+			{data?.products?.pages.map((el, i) => (
+				<h2 key={i} className={s.cards__headerline}>
+					{el}
+					{children}
+				</h2>
+			))}
+		</>
+	);
 }
