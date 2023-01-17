@@ -19,6 +19,7 @@ export function Home() {
 			.then((d) => setData(d));
 	}, []);
 
+	console.log(data)
 	return (
 		<>
             <Header></Header>
