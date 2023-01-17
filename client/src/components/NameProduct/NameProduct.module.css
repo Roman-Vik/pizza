@@ -1,3 +1,10 @@
+.cards__items{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+}
+
 .cards__headerline {
     font-family: 'Nunito';
     font-style: normal;
@@ -8,8 +15,8 @@
     margin-bottom: 40px
 }
 
-@media (max-width: 459px) {
-    .cards__headerline {
-        display: none;
-    }
-}
+/*@media (max-width: 459px) {*/
+/*    .cards__headerline {*/
+/*        display: none;*/
+/*    }*/
+/*}*/

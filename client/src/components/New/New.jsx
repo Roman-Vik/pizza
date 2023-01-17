@@ -5,14 +5,13 @@ import logo3 from "../images/items/popular/popular-3.webp";
 import logo4 from "../images/items/popular/popular-4.webp";
 ////!data ? "loading..." : data
 export function New({data}) {
-
 	return (
 		<>
 			<div className={s.container}>
 				<div className={s.rangeNew}>
 					<h1 className={s.headerline}>Новое и популярное</h1>
 					<div className={s.box}>
-						{data?.products?.novelty?.map((el, i) => <div className={s.item}>
+						{data?.novelty?.map((el, i) => <div key={i} className={s.item}>
 							<div className={s.wrap}>
 								<img
 									className={s.img}
