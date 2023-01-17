@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 250px;
-    border: solid 1px #069766;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(6, 5, 30, 0.05);
 }
 
 .cards__wrapper {
@@ -19,7 +20,6 @@
 }
 .cards__description{
     height: 100%;
-    border: solid 1px #1839de;
     margin-top: 5px;
 }
 
@@ -48,10 +48,8 @@
 }
 
 .cards__option {
-    border: solid 1px red;
     display: flex;
     align-items: center;
-
 }
 
 .cards__price {
@@ -71,7 +69,7 @@
     cursor: pointer;
     background: #FFF0E6;
     border-radius: 1000px;
-    font-family: "Nunito";
+    font-family: "Nunito",sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -195,11 +193,11 @@
 /*    }*/
 /*}*/
 
-/*@media (max-width: 420px) {*/
-/*    .cards__item {*/
-/*        display: flex;*/
-/*        border-bottom: 1px solid #F3F3F7;*/
-/*    }*/
-/*}*/
+@media (max-width: 420px) {
+    .cards__item {
+        display: flex;
+        border-bottom: 1px solid #F3F3F7;
+    }
+}
 
 
