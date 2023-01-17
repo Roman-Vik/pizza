@@ -1,14 +1,15 @@
-import s from "./NameProduct.module.css";
 
-export function NameProduct({ data, children }) {
-	return (
-		<>
-			{data?.products?.pages.map((el, i) => (
-				<h2 key={i} className={s.cards__headerline}>
-					{el}
-					{children}
-				</h2>
-			))}
-		</>
-	);
+import s from "./NameProduct.module.css"
+import {Card} from "../Card/Card";
+
+export function NameProduct({el}) {
+    return (<div>
+            <h2 className={s.cards__headerline}>{el.name}</h2>
+            <div className={s.cards__items}>
+                {el?.arr?.map((el, i)=> <Card el={el}/>)}
+            </div>
+        </div>
+
+    )
 }
+

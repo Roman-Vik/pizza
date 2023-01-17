@@ -1,8 +1,14 @@
-§.cards__item {
-    margin-bottom: 100px;
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(6, 5, 30, 0.05);
 }
 
 .cards__wrapper {
+    margin: 0 auto;
     width: 220px;
     height: 220px;
 }
@@ -12,10 +18,14 @@
     width: 100%;
     height: 100%;
 }
+.cards__description{
+    height: 100%;
+    margin-top: 5px;
+}
 
 .cards__title {
     margin: 5px 0 10px 0;
-    font-family: "Nunito";
+    font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -39,13 +49,11 @@
 
 .cards__option {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 11px;
 }
 
 .cards__price {
-    font-family: "Nunito";
+    font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -56,132 +64,134 @@
 .cards__choice {
     width: 120px;
     height: 40px;
-    margin: 0 20px 0 0;
+    margin-left: 45px;
     border: none;
     cursor: pointer;
     background: #FFF0E6;
     border-radius: 1000px;
-    font-family: "Nunito";
+    font-family: "Nunito",sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
     color: #D15700;
+
 }
+
 .cards__text__epmty {
     display: none;
 }
 
 
-@media (max-width: 990px) {
-    .cards__item {
-        display: flex;
-        margin-bottom: 0px;
-    }
-    .cards__img {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .cards__text {
-        width: 156px;
-        font-family: "Nunito";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #73798C;
-    }
-    .cards__title {
-        margin: 16px 19px 4px 7px;
-        font-family: "Nunito";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 20px;
-        color: #000000;
-        width: 147px;
-    }
-    .cards__text {
-        margin: 0px 10px 8px 7px;
-    }
-    .cards__choice{
-        display: none;
-    }
-    .cards__text__epmty {
-        display: block;
-        font-family: "Nunito";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 19px;
-        color: #FFF;
-        background: #F96900;
-        border-radius: 1000px;
-        width: 96px;
-        height: 32px;
-        text-align: center;
-    }
-    .cards__price {
-        display: none;
-    }
-}
+/*@media (max-width: 990px) {*/
+/*    .cards__item {*/
+/*        display: flex;*/
+/*        margin-bottom: 0px;*/
+/*    }*/
+/*    .cards__img {*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*    }*/
+/*    .cards__text {*/
+/*        width: 156px;*/
+/*        font-family: "Nunito";*/
+/*        font-size: 12px;*/
+/*        font-weight: 400;*/
+/*        line-height: 16px;*/
+/*        letter-spacing: 0em;*/
+/*        text-align: left;*/
+/*        color: #73798C;*/
+/*    }*/
+/*    .cards__title {*/
+/*        margin: 16px 19px 4px 7px;*/
+/*        font-family: "Nunito";*/
+/*        font-style: normal;*/
+/*        font-weight: 600;*/
+/*        font-size: 18px;*/
+/*        line-height: 20px;*/
+/*        color: #000000;*/
+/*        width: 147px;*/
+/*    }*/
+/*    .cards__text {*/
+/*        margin: 0px 10px 8px 7px;*/
+/*    }*/
+/*    .cards__choice{*/
+/*        display: none;*/
+/*    }*/
+/*    .cards__text__epmty {*/
+/*        display: block;*/
+/*        font-family: "Nunito";*/
+/*        font-style: normal;*/
+/*        font-weight: 600;*/
+/*        font-size: 14px;*/
+/*        line-height: 19px;*/
+/*        color: #FFF;*/
+/*        background: #F96900;*/
+/*        border-radius: 1000px;*/
+/*        width: 96px;*/
+/*        height: 32px;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .cards__price {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 660px) {
-    .cards__item {
-        display: flex;
-    }
-    .cards__img {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .cards__text {
-        width: 156px;
-        font-family: "Nunito";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #73798C;
-    }
-    .cards__title {
-        margin: 16px 19px 4px 7px;
-        font-family: "Nunito";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 20px;
-        color: #000000;
-        width: 147px;
-    }
-    .cards__text {
-        margin: 0px 10px 8px 7px;
-    }
-    .cards__choice{
-        display: none;
-    }
-    .cards__text__epmty {
-        display: block;
-        font-family: "Nunito";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 19px;
-        color: #FFF;
-        background: #F96900;
-        border-radius: 1000px;
-        width: 96px;
-        height: 32px;
-        text-align: center;
-    }
-    .cards__price {
-        display: none;
-    }
-}
+/*@media (max-width: 660px) {*/
+/*    .cards__item {*/
+/*        display: flex;*/
+/*    }*/
+/*    .cards__img {*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*    }*/
+/*    .cards__text {*/
+/*        width: 156px;*/
+/*        font-family: "Nunito";*/
+/*        font-size: 12px;*/
+/*        font-weight: 400;*/
+/*        line-height: 16px;*/
+/*        letter-spacing: 0em;*/
+/*        text-align: left;*/
+/*        color: #73798C;*/
+/*    }*/
+/*    .cards__title {*/
+/*        margin: 16px 19px 4px 7px;*/
+/*        font-family: "Nunito";*/
+/*        font-style: normal;*/
+/*        font-weight: 600;*/
+/*        font-size: 18px;*/
+/*        line-height: 20px;*/
+/*        color: #000000;*/
+/*        width: 147px;*/
+/*    }*/
+/*    .cards__text {*/
+/*        margin: 0px 10px 8px 7px;*/
+/*    }*/
+/*    .cards__choice{*/
+/*        display: none;*/
+/*    }*/
+/*    .cards__text__epmty {*/
+/*        display: block;*/
+/*        font-family: "Nunito";*/
+/*        font-style: normal;*/
+/*        font-weight: 600;*/
+/*        font-size: 14px;*/
+/*        line-height: 19px;*/
+/*        color: #FFF;*/
+/*        background: #F96900;*/
+/*        border-radius: 1000px;*/
+/*        width: 96px;*/
+/*        height: 32px;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .cards__price {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 420px) {
     .cards__item {

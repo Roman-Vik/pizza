@@ -1,7 +1,6 @@
 import s from "./Main.module.css";
 import { Ul } from "../../components/Ul/Ul";
 import { Button } from "../../components/Button/Button";
-import { Card } from "../../components/Card/Card";
 import { NameProduct } from "../../components/NameProduct/NameProduct";
 import { Reference } from "../../components/Reference/Reference";
 import { Container } from "../../components/Container/Container";
@@ -25,22 +24,7 @@ export function Main({ data }) {
 				<Sliders />
 				<Container>
 					<New data={data} />
-					<NameProduct data={data}>
-						<div className={s.cards__items}>
-							{data?.products?.pizzas?.new.map((el, i) => (
-								<Card
-									key={i}
-									// img={el.img}
-									// title={el.title}
-									// description={el.description}
-									// price={el.price}
-									{...el}
-								>
-									{el}
-								</Card>
-							))}
-						</div>
-					</NameProduct>
+					{data?.products?.map((el, i)=> <NameProduct  el={el} />)}
 				</Container>
 			</section>
 			<section className={s.reference}>
