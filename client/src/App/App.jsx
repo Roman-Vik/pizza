@@ -6,9 +6,9 @@ import {Main} from "../UI/Main/Main";
 import {Footer} from "../UI/Footer/Footer";
 import {Order} from "../components/Order/Order";
 import {FooterCard} from "../UI_Cards/FooterCard/FooterCard";
-import { Home } from '../Pages/Home';
-import { NotFound } from '../Pages/NotFound';
-import { Pizza } from '../Pages/Pizza';
+import { Home } from '../Pages/Home/Home';
+import { NotFound } from "../Pages/NotFound/NotFound"
+import { Pizza } from '../Pages/Pizza/Pizza';
 import { Layout } from '../layout/Layout';
 import { Basket } from '../components/Basket/Basket';
 import { BasketPages } from '../Pages/Basket/BasketPages';
@@ -19,6 +19,7 @@ import { Snacks } from "../Pages/Snacks/Snacks"
 import { Desserts } from "../Pages/Desserts/Desserts"
 import { Drinks } from "../Pages/Drinks/Drinks"
 import { ModalCard } from '../components/ModalCard/ModalCard';
+
 
 
 export function App() {
