@@ -7,7 +7,6 @@ export function Card({el}) {
     return (
 
         <div className={s.cards}>
-
                 <div className={s.cards__wrapper}>
                     <img className={s.cards__img} src={img} alt="Pizza"/>
                 </div>
@@ -21,6 +20,5 @@ export function Card({el}) {
                 	<button className={s.cards__choice}>Выбрать</button>
                 </div>
             </div>
-
     );
 }

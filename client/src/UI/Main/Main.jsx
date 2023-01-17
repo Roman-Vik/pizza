@@ -1,7 +1,6 @@
 import s from "./Main.module.css";
 import { Ul } from "../../components/Ul/Ul";
 import { Button } from "../../components/Button/Button";
-import { Card } from "../../components/Card/Card";
 import { NameProduct } from "../../components/NameProduct/NameProduct";
 import { Reference } from "../../components/Reference/Reference";
 import { Container } from "../../components/Container/Container";
@@ -10,7 +9,6 @@ import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
 
 export function Main({ data }) {
-	console.log(data)
 	return (
 		<main>
 			<section>

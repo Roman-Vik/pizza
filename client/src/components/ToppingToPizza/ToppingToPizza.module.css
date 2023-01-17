@@ -5,6 +5,7 @@
     display: flex;
     padding-left: 38px;
 }
+
 .right_section {
     margin-left: 44px;
     width: 380px;
@@ -21,19 +22,16 @@
     width: 458px;
     height: 458px;
     border-radius: 50%;
-    background: #d15700;
-    border:  1px dotted #A7A7A7;
+    border: 3px dashed #A7A7A7;
+    z-index: 21;
+}
 
-}
-.wrapper_img{
-position: absolute;
-    width: 372px;
-    height: 372px;
-    z-index: 10  ;
-}
-.wrapper_img > img{
+.wrapper_img {
     position: absolute;
-
+    transform: translate(45px, -110%);
+    z-index: 1;
+}
+.wrapper_img > img {
     display: block;
     width: 372px;
     height: 372px;
