@@ -1,8 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Card } from "../components/Card/Card";
+import { Card } from "../../components/Card/Card";
+import { Header } from "../../UI/Header/Header";
 
-import { Main } from "../UI/Main/Main";
+import { Main } from "../../UI/Main/Main";
 
 export function Home() {
 	const [data, setData] = useState({});
@@ -21,7 +22,7 @@ export function Home() {
 
 	return (
 		<>
-            
+            <Header></Header>
 			<Main data={data} />
 		</>
 	);

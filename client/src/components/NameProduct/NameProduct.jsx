@@ -1,3 +1,4 @@
+
 import s from "./NameProduct.module.css"
 import {Card} from "../Card/Card";
 
@@ -11,3 +12,4 @@ export function NameProduct({el}) {
 
     )
 }
+

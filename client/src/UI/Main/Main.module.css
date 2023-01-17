@@ -9,6 +9,8 @@
 }
 
 .cards__items {
+    /* width: 250px ;
+    height: 370px; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 35px;
