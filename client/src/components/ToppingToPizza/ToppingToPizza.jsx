@@ -11,7 +11,9 @@ export function ToppingToPizza() {
                         <img src="http://127.0.0.1:5000/photos/items/pizzas/pizza-7-2x.webp" alt="dddd"/>
                     </div>
                 </div>
-                <div className={s.right_section}>22</div>
+                <div className={s.right_section}>
+                <h2 className={s.right_section__headLine}>Чиззи чеддер</h2>
+                </div>
             </div>
         </Container>
     )

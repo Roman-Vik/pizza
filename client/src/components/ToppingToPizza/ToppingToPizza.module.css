@@ -6,13 +6,6 @@
     padding-left: 38px;
 }
 
-.right_section {
-    margin-left: 44px;
-    width: 380px;
-    height: 400px;
-    background: rebeccapurple;
-}
-
 .radius {
     position: relative;
     display: flex;
@@ -23,9 +16,8 @@
     height: 458px;
     border-radius: 50%;
     border: 3px dashed #A7A7A7;
-    z-index: 21;
+    z-index: 2;
 }
-
 .wrapper_img {
     position: absolute;
     transform: translate(45px, -110%);
@@ -35,4 +27,21 @@
     display: block;
     width: 372px;
     height: 372px;
+}
+.right_section{
+    padding: 30px;
+}
+.right_section {
+    margin-left: 44px;
+    width: 380px;
+    height:auto;
+    background: rebeccapurple;
+}
+.headLine{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
 }
