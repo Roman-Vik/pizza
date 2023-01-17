@@ -1,0 +1,60 @@
+{
+  "pizza":  [
+  {
+    "title": "Чиззи чеддер",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
+    "description": "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
+    "price": "625"
+  },
+  {
+    "title": "Цыпленок блю чиз",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-5-2x.webp",
+    "description": "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
+    "price": "445"
+  },
+  {
+    "title": "Нежный лосось",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-6-2x.webp",
+    "description": "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
+    "price": "495"
+  },
+  {
+    "title": "Пицца из половинок",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-1-2x.webp",
+    "description": "Соберите свою пиццу 35 см с двумя разными вкусами",
+    "price": "245"
+  },
+  {
+    "title": "Сырная",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-7-2x.webp",
+    "description": "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
+    "price": "600"
+  },
+  {
+    "title": "Пепперони-сердце",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-2.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-4-2x.webp",
+    "description": "Пикантная пепперони, моцарелла, томатный соус",
+    "price": "625"
+  },
+  {
+    "title": "Пепперони фреш",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-8-2x.webp",
+    "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
+    "price": "245"
+  },
+  {
+    "title": "Пирог-сердцe",
+    "img": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3.webp",
+    "imgX2": "http://127.0.0.1:5000/photos/items/pizzas/pizza-3-2x.webp",
+    "description": "Ананасы, брусника, сгущенное молоко",
+    "price": "625"
+  }
+]
+}

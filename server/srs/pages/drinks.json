@@ -1,0 +1,46 @@
+{
+  "drinks": [
+    {
+      "title": "2 Coca-Cola по суперцене",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-1.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-1-2x.webp",
+      "description": "Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л",
+      "price": "119"
+    },
+    {
+      "title": "Coca-Cola Orange",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-2-2x.webp",
+      "description": "0,5 л",
+      "price": "95"
+    },
+    {
+      "title": "Coca-Cola Zero",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-2-2x.webp",
+      "description": "0,5 л",
+      "price": "95"
+    },
+    {
+      "title": "Coca-Cola Vanilla",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-5.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-5-2x.webp",
+      "description": "0,5 л",
+      "price": "95"
+    },
+    {
+      "title": "Coca-Cola без сахара",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-3.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-3-2x.webp",
+      "description": "0,5 л",
+      "price": "95"
+    },
+    {
+      "title": "Coca-Cola Classic",
+      "img": "http://127.0.0.1:5000/photos/items/drinks/drink-4.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/drinks/drink-4-2x.webp",
+      "description": "0,5 л",
+      "price": "95"
+    }
+  ]
+}

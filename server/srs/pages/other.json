@@ -1,0 +1,28 @@
+{
+  "other": [
+    {
+      "title": "Молочный коктейль с...",
+      "img": "http://127.0.0.1:5000/photos/cart/image 2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/cart/image 2-2x.webp",
+      "price": "175"
+    },
+    {
+      "title": "Рулетики с брусникой",
+      "img": "http://127.0.0.1:5000/photos/cart/image 2-2x-1.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/cart/image 3.webp",
+      "price": "195"
+    },
+    {
+      "title": "2 Coca-Cola по ене",
+      "img": "http://127.0.0.1:5000/photos/cart/image 2-2x-2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/cart/image 4.webp",
+      "price": "159"
+    },
+    {
+      "title": "Пирог с ...",
+      "img": "http://127.0.0.1:5000/photos/cart/image 13.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/cart/image 13-2x.webp",
+      "price": "176"
+    }
+  ]
+}

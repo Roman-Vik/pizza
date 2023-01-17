@@ -1,0 +1,39 @@
+{
+  "snacks": [
+    {
+      "title": "Томатный суп с гренками",
+      "img": "http://127.0.0.1:5000/photos/items/snacks/snack-1.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-1-2x.webp",
+      "description": "Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов",
+      "price": "99"
+    },
+    {
+      "title": "Томатный суп с митболами",
+      "img": "http://127.0.0.1:5000/photos/items/snacks/snack-1.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-1-2x.webp",
+      "description": "Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов",
+      "price": "99"
+    },
+    {
+      "title": "Додстер",
+      "img": "http://127.0.0.1:5000/photos/items/snacks/snack-2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-2-2x.webp",
+      "description": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+      "price": "159"
+    },
+    {
+      "title": "Острый Додстер",
+      "img": "http://127.0.0.1:5000/photos/items/snacks/snack-3.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-3-2x.webp",
+      "description": "Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+      "price": "159"
+    },
+    {
+      "title": "Додстер Чипотле",
+      "img": "http://127.0.0.1:5000/photos/items/snacks/snack-4.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/snacks/snack-4-2x.webp",
+      "description": "Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке",
+      "price": "159"
+    }
+  ]
+}

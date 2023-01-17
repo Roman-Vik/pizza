@@ -1,0 +1,38 @@
+{
+  "dessert":[
+    {
+      "title": "Яблочный пирог",
+      "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-1.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-1-2x.webp",
+      "description": "Десерт из песочного теста с яблочной начинкой. Может содержать изюм",
+      "price": "119"
+    },
+    {
+      "title": "Чизкейк Нью-Йорк",
+      "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-2.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-2-2x.webp",
+      "description": "Классический американский творожный десерт",
+      "price": "219"
+    },
+    {
+      "title": "Фонданы, 2 шт",
+      "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-3.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-3-2x.webp",
+      "description": "Два десерта с хрустящей корочкой и топлёной шоколадной начинкой",
+      "price": "290"
+    },
+    {
+      "title": "Молочный коктейль с печеньем Орео",
+      "img": "http://127.0.0.1:5000/photos/items/desserts/dessert-4.webp",
+      "imgX2": "http://127.0.0.1:5000/photos/items/desserts/dessert-4-2x.webp",
+      "description": "Напиток из молока и мороженого с добавлением дробленого печенья «Орео»",
+      "price": "175"
+    },
+    {
+      "title": "Классический молочный коктейль",
+      "img": "./photo/pizza1.png",
+      "description": "Напиток из молока и мороженого",
+      "price": "175"
+    }
+  ]
+}
