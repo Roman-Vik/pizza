@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Card } from "../../components/Card/Card";
 import { Header } from "../../UI/Header/Header";
 
 import { Main } from "../../UI/Main/Main";

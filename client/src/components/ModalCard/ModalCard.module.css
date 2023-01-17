@@ -1,0 +1,68 @@
+.modal {
+    display: flex;
+    width: 740px;
+    border-radius: 20px;
+}
+.picture__modal {
+    width: 292px;
+    margin: 49px;
+}
+
+.img__modal > img {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    padding: 9px 20px 9px 20px;
+    border-radius: 1000px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.btn__orange {
+    background: #F96900;
+    color: #ffffff;
+    border: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    margin: 30px 0px ;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.title__info {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.number__info {
+    margin-top: 11px;
+    margin-bottom: 15px;
+    color: #73798C
+}
+
+.subtitle__info {
+    margin-bottom: 86px;
+    color: #4D4D4D;
+}
+
+.add__btn {
+    color: #fff;
+}
