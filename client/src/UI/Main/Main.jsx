@@ -6,6 +6,7 @@ import { Container } from "../../components/Container/Container";
 import { Statistic } from "../../components/Statistic/Statistic";
 import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
+import { Section } from "../../components/Section/Section";
 
 export function Main({ data }) {
 	console.log(data);
