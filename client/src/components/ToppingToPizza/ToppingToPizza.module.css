@@ -60,15 +60,15 @@
     line-height: 19px;
     color: #73798C;
 }
-
 .right_sectiont__selected{
     display: flex;
+    gap: 3px;
 }
 .right_sectiont__name {
     display: flex;
 }
 
-.right_sectiont__name > p {
+.right_sectiont__name {
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -78,9 +78,28 @@
 }
 
 .right_sectiont__name > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 14px;
     height: 14px;
     background: #FFFFFF;
     border-radius: 50%;
     border: 0.5px solid #727171;
+}
+.right_sectiont__pizzaSize{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: seagreen;
+}
+.right_sectiont__choiceOfTest{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #2e598b;
 }
