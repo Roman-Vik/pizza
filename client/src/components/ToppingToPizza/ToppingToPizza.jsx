@@ -24,39 +24,51 @@ export function ToppingToPizza() {
 
 
                     </div>
-                    <div className={s.right_sectiont__pizzaSize}>
+
+
+                    <div className={s.right_sectiont__pizzaSize__radio}>
                         <input
+                            className={s.radio__input}
                             type="radio"
-                            name="topping"
-                            value="Regular"
+                            name="myRadio"
+                            value="option1"
                             id="regular"
                             // checked={topping === "Regular"}
                             // onChange={onOptionChange}
                         />
-                        <label htmlFor="regular">Regular</label>
+                        <label className={s.radio__label} htmlFor="myRadio">Option1 </label>
 
                         <input
+                            className={s.radio__input}
                             type="radio"
-                            name="topping"
-                            value="Medium"
-                            id="medium"
-                            // checked={topping === "Medium"}
+                            name="myRadio"
+                            value="option2"
+                            id="regular"
+                            // checked={topping === "Regular"}
                             // onChange={onOptionChange}
                         />
-                        <label htmlFor="medium">Medium</label>
-
+                        <label  className={s.radio__label}  htmlFor="myRadio">Option2 </label>
                         <input
+                            className={s.radio__input}
                             type="radio"
-                            name="topping"
-                            value="Large"
-                            id="large"
-                            // checked={topping === "Large"}
+                            name="myRadio"
+                            value="option3"
+                            id="regular"
+                            // checked={topping === "Regular"}
                             // onChange={onOptionChange}
                         />
-                        <label htmlFor="large">Large</label>
+                        <label  className={s.radio__label} htmlFor="myRadio">Option3 </label>
+
 
 
                     </div>
+
+
+
+
+
+
+
                     <div className={s.right_sectiont__choiceOfTest}>
                         <input
                             type="radio"
@@ -80,7 +92,7 @@ export function ToppingToPizza() {
                     </div>
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>
-            <div>
+            <div className={"все фотки пицц"}>
                 <div>
                     <input
                         type="radio"
