@@ -1,15 +1,15 @@
 import s from "./Main.module.css";
 import { Ul } from "../../components/Ul/Ul";
 import { Button } from "../../components/Button/Button";
-import { NameProduct } from "../../components/NameProduct/NameProduct";
 import { Reference } from "../../components/Reference/Reference";
 import { Container } from "../../components/Container/Container";
 import { Statistic } from "../../components/Statistic/Statistic";
 import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
+import {Section} from "../../components/Section/Section";
 
 export function Main({ data }) {
-	console.log(data);
+	console.log(data)
 	return (
 		<main>
 			<section>
@@ -24,7 +24,9 @@ export function Main({ data }) {
 				<Sliders />
 				<Container>
 					<New data={data} />
-					{data?.products?.map((el, i)=> <NameProduct  el={el} />)}
+
+					{data?.products?.map((el, i)=> <Section  key={i} el={el} />)}
+
 				</Container>
 			</section>
 			<section className={s.reference}>

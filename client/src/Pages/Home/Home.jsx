@@ -1,11 +1,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Header } from "../../UI/Header/Header";
-
 import { Main } from "../../UI/Main/Main";
 
 export function Home() {
 	const [data, setData] = useState({});
+
 
 	useEffect(() => {
 		fetch("http://localhost:5000/api", {
@@ -19,10 +19,9 @@ export function Home() {
 			.then((d) => setData(d));
 	}, []);
 
-	console.log(data)
 	return (
 		<>
-            <Header></Header>
+			<Header></Header>
 			<Main data={data} />
 		</>
 	);

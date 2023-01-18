@@ -1,7 +1,5 @@
 import s from "./Card.module.css";
 
-// import imgPizza from "../images/items/pizza/pizza-1-2x.webp";
-
 export function Card({el}) {
     const {title, img, description, price} = el
     return (
