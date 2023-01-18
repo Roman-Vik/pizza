@@ -31,33 +31,31 @@ export function ToppingToPizza() {
                             className={s.radio__input}
                             type="radio"
                             name="myRadio"
-                            value="option1"
+                            value="Маленькая"
                             id="regular"
-                            // checked={topping === "Regular"}
-                            // onChange={onOptionChange}
+                            onClick={e => console.log(e.target.value)}
                         />
-                        <label className={s.radio__label} htmlFor="myRadio">Option1 </label>
+                        <label className={s.radio__label} htmlFor="regular">Маленькая</label>
 
                         <input
+                            onClick={e => console.log(e.target.value)}
                             className={s.radio__input}
                             type="radio"
                             name="myRadio"
-                            value="option2"
-                            id="regular"
-                            // checked={topping === "Regular"}
-                            // onChange={onOptionChange}
+                            value="Средняя"
+                            id="regular2"
+
                         />
-                        <label  className={s.radio__label}  htmlFor="myRadio">Option2 </label>
+                        <label  className={s.radio__label}  htmlFor="regular2"> Средняя</label>
                         <input
+                            onClick={e => console.log(e.target.value)}
                             className={s.radio__input}
                             type="radio"
                             name="myRadio"
-                            value="option3"
-                            id="regular"
-                            // checked={topping === "Regular"}
-                            // onChange={onOptionChange}
+                            value="Большая"
+                            id="regular3"
                         />
-                        <label  className={s.radio__label} htmlFor="myRadio">Option3 </label>
+                        <label  className={s.radio__label} htmlFor="regular3">Большая</label>
 
 
 
