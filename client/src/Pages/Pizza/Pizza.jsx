@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Footer } from "../../UI/Footer/Footer";
 
-import { Card } from '../../components/Card/Card'
+import { Header } from "../../UI/Header/Header";
 
-import { Header } from '../../UI/Header/Header'
-import {Section} from "../../components/Section/Section";
-
-export function Pizza () {
-  return (
-    <>
-    <Header></Header>
-    <Section/>
-    <Card></Card>
-    </>
-  )
+export function Pizza() {
+	return (
+		<>
+			<Header></Header>
+			<div>Pizza</div>
+			<Footer></Footer>
+		</>
+	);
 }

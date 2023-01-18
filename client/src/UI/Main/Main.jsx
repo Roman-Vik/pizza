@@ -25,7 +25,9 @@ export function Main({ data }) {
 				<Sliders />
 				<Container>
 					<New data={data} />
-					{data?.products?.map((el, i)=> <Section  key={i} el={el} />)}
+					{data?.products?.map((el, i) => (
+						<Section el={el} />
+					))}
 				</Container>
 			</section>
 			<section className={s.reference}>
