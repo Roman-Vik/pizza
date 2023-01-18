@@ -13,4 +13,4 @@ export function Section({ el }) {
 			</div>
 		</section>
 	);
-}
+};

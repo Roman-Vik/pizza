@@ -1,9 +1,10 @@
-.cards__items {
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fit, 250px);
-	justify-content: center;
+.cards__items{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
 }
+
 .cards__headerline {
 	font-family: "Nunito";
 	font-style: normal;
