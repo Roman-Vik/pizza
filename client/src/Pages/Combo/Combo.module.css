@@ -1,0 +1,6 @@
+.cards__items {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, 250px);
+	justify-content: center;
+}

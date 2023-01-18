@@ -5,6 +5,7 @@ import { Main } from "../../UI/Main/Main";
 
 export function Home() {
 	const [data, setData] = useState({});
+	
 
 
 	useEffect(() => {
