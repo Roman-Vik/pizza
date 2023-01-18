@@ -26,7 +26,7 @@ export function Main({ data }) {
 				<Container>
 					<New data={data} />
 					{data?.products?.map((el, i) => (
-						<Section el={el} />
+						<Section key={i} el={el} />
 					))}
 				</Container>
 			</section>
