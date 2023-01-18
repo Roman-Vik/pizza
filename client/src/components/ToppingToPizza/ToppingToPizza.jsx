@@ -77,6 +77,77 @@ export function ToppingToPizza() {
                             // onChange={onOptionChange}
                         />
                         <label htmlFor="medium">Medium</label>
+                    </div>
+                    <div className={s.wrapperIngredients}>
+                        <h2>Добавить в пиццу</h2>
+            <div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="topping"
+                        value="Regular"
+                        id="regular"
+                        // checked={topping === "Regular"}
+                        // onChange={onOptionChange}
+                    />
+                    <label htmlFor="regular">Regular</label>
+                </div>
+            </div>
 
                     </div>
                 </div>
