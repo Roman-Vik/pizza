@@ -1,6 +1,7 @@
 import s from "./ToppingToPizza.module.css"
 import {Container} from "../Container/Container";
 import x from "../../components/images/Vector.svg"
+import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
 
 export function ToppingToPizza() {
 
@@ -21,44 +22,18 @@ export function ToppingToPizza() {
                     <div className={s.right_sectiont__selected}>
                         <div className={s.right_sectiont__name}>чеддер<button ><img src={x} alt="x"/></button>,</div>
                         <div className={s.right_sectiont__name}>чеддер<button><img src={x} alt="x"/></button>,</div>
-
-
                     </div>
 
-
-                    <div className={s.right_sectiont__pizzaSize__radio}>
-                        <input
-                            className={s.radio__input}
-                            type="radio"
-                            name="myRadio"
-                            value="Маленькая"
-                            id="regular"
-                            onClick={e => console.log(e.target.value)}
-                        />
-                        <label className={s.radio__label} htmlFor="regular">Маленькая</label>
-
-                        <input
-                            onClick={e => console.log(e.target.value)}
-                            className={s.radio__input}
-                            type="radio"
-                            name="myRadio"
-                            value="Средняя"
-                            id="regular2"
-
-                        />
-                        <label  className={s.radio__label}  htmlFor="regular2"> Средняя</label>
-                        <input
-                            onClick={e => console.log(e.target.value)}
-                            className={s.radio__input}
-                            type="radio"
-                            name="myRadio"
-                            value="Большая"
-                            id="regular3"
-                        />
-                        <label  className={s.radio__label} htmlFor="regular3">Большая</label>
-
-
-
+                    <div className={s.right_sectiont__choiceOfIngredients}>
+                       <div  className={s.right_section__radio}>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                       </div>
+                        <div  className={s.right_section__radio}>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                        </div>
                     </div>
 
 
@@ -67,27 +42,11 @@ export function ToppingToPizza() {
 
 
 
-                    <div className={s.right_sectiont__choiceOfTest}>
-                        <input
-                            type="radio"
-                            name="topping"
-                            value="Regular"
-                            id="regular"
-                            // checked={topping === "Regular"}
-                            // onChange={onOptionChange}
-                        />
-                        <label htmlFor="regular">Regular</label>
 
-                        <input
-                            type="radio"
-                            name="topping"
-                            value="Medium"
-                            id="medium"
-                            // checked={topping === "Medium"}
-                            // onChange={onOptionChange}
-                        />
-                        <label htmlFor="medium">Medium</label>
-                    </div>
+
+
+
+
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>
             <div className={"все фотки пицц"}>
