@@ -5,7 +5,6 @@ import img from "../../components/images/Ingredients/image_1.png"
 import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
 
 
-
 export function ToppingToPizza() {
     return (
         <Container>
@@ -29,119 +28,118 @@ export function ToppingToPizza() {
                             ,
                         </div>
                     </div>
-
-                    {/*<div className={s.right_sectiont__choiceOfIngredients}>*/}
-                    {/*    <div className={s.right_section__radio}>*/}
-                    {/*        <PizzaSelection/>*/}
-                    {/*        <PizzaSelection/>*/}
-                    {/*        <PizzaSelection/>*/}
-                    {/*    </div>*/}
-                    {/*    <div className={s.right_section__radio}>*/}
-                    {/*        <PizzaSelection/>*/}
-                    {/*        <PizzaSelection/>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div className={s.right_sectiont__choiceOfIngredients}>
+                        <div className={s.right_section__radio}>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                        </div>
+                        <div className={s.right_section__radio}>
+                            <PizzaSelection/>
+                            <PizzaSelection/>
+                        </div>
+                    </div>
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>
                         <div className={s.wrapper__items}>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <div className={s.x}>
-                                        <p className={s.name}>Сырный<br/> бортик</p>
-                                    </div>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <div className={s.x}>
+                                    <p className={s.name}>Сырный<br/> бортик</p>
+                                </div>
 
-                                    <span className={s.price}>599 ₽</span>
+                                <span className={s.price}>599 ₽</span>
 
-                                </label>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <p className={s.name}>Шампиньоны</p>
-                                    <span className={s.price}>39 ₽</span>
+                            </label>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <p className={s.name}>Шампиньоны</p>
+                                <span className={s.price}>39 ₽</span>
 
-                                </label>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <p className={s.name}>Цыпленок</p>
-                                    <span className={s.price}>59 ₽</span>
+                            </label>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <p className={s.name}>Цыпленок</p>
+                                <span className={s.price}>59 ₽</span>
 
-                                </label>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <p className={s.name}>Моцарелла</p>
-                                    <span className={s.price}>100 ₽</span>
+                            </label>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <p className={s.name}>Моцарелла</p>
+                                <span className={s.price}>100 ₽</span>
 
-                                </label>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <p className={s.name}>Халапеньо </p>
-                                    <span className={s.price}>119 ₽</span>
+                            </label>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <p className={s.name}>Халапеньо </p>
+                                <span className={s.price}>119 ₽</span>
 
-                                </label>
-                                <label className={s.radio__labelImg} htmlFor="card">
-                                    <input
-                                        width="84px"
-                                        height="84px"
-                                        className={s.radio__inputImg}
-                                        src={img}
-                                        type="image"
-                                        name="Ingredients"
-                                        value="mushrooms"
-                                        id="card"
-                                        onClick={e => console.log(e.target.value)}
-                                    />
-                                    <p className={s.name}>Копченый<br/>цыпленок</p>
-                                    <span className={s.price}>599 ₽</span>
-                                </label>
+                            </label>
+                            <label className={s.radio__labelImg} htmlFor="card">
+                                <input
+                                    width="84px"
+                                    height="84px"
+                                    className={s.radio__inputImg}
+                                    src={img}
+                                    type="image"
+                                    name="Ingredients"
+                                    value="mushrooms"
+                                    id="card"
+                                    onClick={e => console.log(e.target.value)}
+                                />
+                                <p className={s.name}>Копченый<br/>цыпленок</p>
+                                <span className={s.price}>599 ₽</span>
+                            </label>
                         </div>
                     </div>
                 </div>
