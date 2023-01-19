@@ -1,70 +1,74 @@
 {
 	"logos": {
-		"dodoPizza": "http://127.0.0.1:5000/photos/dodoPizza.svg",
-		"letter-logo": "http://127.0.0.1:5000/photos/letter-logo.svg",
-		"letter-logo-gray": "http://127.0.0.1:5000/photos/letter-logo-gray.svg",
-		"logo": "http://127.0.0.1:5000/photos/logo.svg",
-		"tagline": "http://127.0.0.1:5000/photos/tagline.svg",
-		"logoImg": "http://127.0.0.1:5000/photos/icons/logo.svg",
-		"check": "http://127.0.0.1:5000/photos/icons/check.svg"
-	},
-	"list": [
-		{
-			"title": "Пицца",
-			"path": "/pizza"
-		},
-		{
-			"title": "Комбо",
-			"path": "/combo"
-		},
-		{
-			"title": "Закуски",
-			"path": "/snacks"
-		},
-		{
-			"title": "Десерты",
-			"path": "/desserts"
-		},
-		{
-			"title": "Напитки",
-			"path": "/drinks"
-		}
-	],
-	"listInfo": [
-		{
-			"company": [
-				"Додо Пицца",
-				"О нас",
-				"Додо-книга",
-				"Блог «Сила ума»",
-				"Додо ИС"
-			]
-		},
-		{
-			"job": ["Работа", "В пиццерии", "В контакт- центре"]
-		},
-		{
-			"partner": [
-				"Партнерам",
-				"Франшиза",
-				"Инвестиции",
-				"Поставщикам",
-				"Предложить помещение"
-			]
-		},
-		{
-			"interesting": [
-				"Это интересно",
-				" Экскурсии и мастер-классы",
-				"Корпоративные заказы"
-			]
-		}
-	],
-	"sliders": [
-		"http://127.0.0.1:5000/photos/slider/slide-left.png",
-		"http://127.0.0.1:5000/photos/slider/slide-central.webp",
-		"http://127.0.0.1:5000/photos/slider/slide-reght.png"
-	],
+    "dodoPizza": "http://127.0.0.1:5000/photos/dodoPizza.svg",
+    "letter-logo": "http://127.0.0.1:5000/photos/letter-logo.svg",
+    "letter-logo-gray": "http://127.0.0.1:5000/photos/letter-logo-gray.svg",
+    "logo": "http://127.0.0.1:5000/photos/logo.svg",
+    "tagline": "http://127.0.0.1:5000/photos/tagline.svg",
+    "logoImg": "http://127.0.0.1:5000/photos/icons/logo.svg",
+    "check": "http://127.0.0.1:5000/photos/icons/check.svg"
+  },
+  "list": [
+    {
+      "title": "Пицца",
+      "path" : "/pizza"
+    },
+    {
+      "title": "Комбо",
+      "path" : "/combo"
+    },
+    {
+      "title": "Закуски",
+      "path" : "/snacks"
+    },
+    {
+      "title": "Десерты",
+      "path" : "/desserts"
+    },
+    {
+      "title": "Напитки",
+      "path" : "/drinks"
+    }
+  ],
+  "listInfo": [
+    {
+      "company": [
+        "Додо Пицца",
+        "О нас",
+        "Додо-книга",
+        "Блог «Сила ума»",
+        "Додо ИС"
+      ]
+    },
+    {
+      "job": [
+        "Работа",
+        "В пиццерии",
+        "В контакт- центре"
+      ]
+    },
+    {
+      "partner": [
+        "Партнерам",
+        "Франшиза",
+        "Инвестиции",
+        "Поставщикам",
+        "Предложить помещение"
+      ]
+    },
+    {
+      "interesting": [
+        "Это интересно",
+        " Экскурсии и мастер-классы",
+        "Корпоративные заказы"
+      ]
+    }
+  ],
+  "sliders": [
+    "http://127.0.0.1:5000/photos/slider/slide-left.png",
+    "http://127.0.0.1:5000/photos/slider/slide-central.webp",
+    "http://127.0.0.1:5000/photos/slider/slide-reght.png"
+  ],
 
 	"novelty": [
 		{

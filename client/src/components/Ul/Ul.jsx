@@ -18,7 +18,7 @@ export function Ul({ data }) {
 				))}{" "}
 				<li className={s.menu__item}>
 					{" "}
-					<Link to="src/components/Ul/Ul#" className={s.menu__link}>
+					<Link to="/other_products" className={s.menu__link}>
 						Другие товары
 					</Link>
 				</li>{" "}
