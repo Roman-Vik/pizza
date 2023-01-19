@@ -2,8 +2,9 @@ import s from "./Section.module.css";
 import { Card } from "../Card/Card";
 
 export function Section({ el }) {
+	console.log(el);
 	return (
-		<section>
+		<section className={s.section}>
 			<h2 className={s.cards__headerline}>{el.name}</h2>
 			<div className={s.cards__items}>
 				{" "}
@@ -13,4 +14,4 @@ export function Section({ el }) {
 			</div>
 		</section>
 	);
-};
+}
