@@ -28,16 +28,11 @@ export function ToppingToPizza() {
                             ,
                         </div>
                     </div>
-                    <div className={s.right_sectiont__choiceOfIngredients}>
+                    <div className={s.right_section__choiceOfIngredients}>
                         <div className={s.right_section__radio}>
                             <PizzaSelection/>
-                            <PizzaSelection/>
-                            <PizzaSelection/>
                         </div>
-                        <div className={s.right_section__radio}>
-                            <PizzaSelection/>
-                            <PizzaSelection/>
-                        </div>
+
                     </div>
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>

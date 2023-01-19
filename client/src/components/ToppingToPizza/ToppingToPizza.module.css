@@ -91,6 +91,13 @@
     border: 0.5px solid #727171;
 }
 
+.right_section__choiceOfIngredients{
+    display: flex;
+    height: 32px;
+    background: #F3F3F7;
+    border-radius: 100px;
+}
+
 h2{
     margin: 19px 0 11px 0;
     font-family: 'Nunito',sans-serif;
@@ -147,7 +154,7 @@ h2{
 .radio__labelImg {
     padding: 3px 8px 10px 0px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(6, 5, 50, 0.05);
+    box-shadow: 0 4px 20px rgba(6, 5, 50, 0.05);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -164,7 +171,6 @@ h2{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    text-align: center;
     color: #000000;
     width: 104px;
     height: 28px;
@@ -194,9 +200,6 @@ h2{
 .right_section__radio {
     display: inline-flex;
     justify-content: space-around;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    border-radius: 15px;
-    background: #F3F3F7;
+    width: 320px;
+    height: 32px;
 }
