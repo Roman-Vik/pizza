@@ -52,9 +52,7 @@ export function ToppingToPizza() {
                                 <div className={s.x}>
                                     <p className={s.name}>Сырный<br/> бортик</p>
                                 </div>
-
                                 <span className={s.price}>599 ₽</span>
-
                             </label>
                             <label className={s.radio__labelImg} htmlFor="card">
                                 <input
