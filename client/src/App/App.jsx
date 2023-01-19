@@ -1,16 +1,8 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { Header } from "../UI/Header/Header";
-import { Main } from "../UI/Main/Main";
-import { Footer } from "../UI/Footer/Footer";
-import { Order } from "../components/Order/Order";
-import { FooterCard } from "../UI_Cards/FooterCard/FooterCard";
 import { Home } from "../Pages/Home/Home";
 import { NotFound } from "../Pages/NotFound/NotFound";
 import { Pizza } from "../Pages/Pizza/Pizza";
-import { Layout } from "../layout/Layout";
-import { Basket } from "../components/Basket/Basket";
 import { BasketPages } from "../Pages/Basket/BasketPages";
 import { FoodOrdering } from "../Pages/FoodOrdering/FoodOrdering";
 import { Accepted } from "../Pages/Accepted/Accepted";
@@ -24,7 +16,6 @@ export function App() {
 		<>
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
-				{/* <Route path='/' element={<Layout></Layout>}></Route> */}
 				<Route
 					path="/basket"
 					element={<BasketPages></BasketPages>}

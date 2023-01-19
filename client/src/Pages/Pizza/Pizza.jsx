@@ -1,16 +1,38 @@
-import React from 'react'
+import React from "react";
+import { useState, useEffect } from "react";
+import { Footer } from "../../UI/Footer/Footer";
+import { Header } from "../../UI/Header/Header";
+import { Container } from "../../components/Container/Container";
+import { Section } from "../../components/Section/Section";
+import { Ul } from "../../components/Ul/Ul";
 
-import { Card } from '../../components/Card/Card'
+export function Pizza() {
+	const [data, setData] = useState({});
+	const [nav, setNav] = useState({});
 
-import { Header } from '../../UI/Header/Header'
-import {Section} from "../../components/Section/Section";
-
-export function Pizza () {
-  return (
-    <>
-    <Header></Header>
-    <Section/>
-    <Card></Card>
-    </>
-  )
+	useEffect(() => {
+		fetch("http://localhost:5000/api", {
+			method: "GET",
+			headers: {
+				"Content-Type": "application/json",
+				"Access-Control-Allow-Origin": "*"
+			}
+		})
+			.then((data) => data.json())
+			.then((d) => {
+				setData(d?.products?.find((el) => el.name === "Пицца"));
+				setNav(d);
+			});
+	}, []);
+	console.log(data);
+	return (
+		<>
+			<Header></Header>
+			<Container>
+				<Ul data={nav}></Ul>
+				<Section el={data} />
+			</Container>
+			<Footer></Footer>
+		</>
+	);
 }
