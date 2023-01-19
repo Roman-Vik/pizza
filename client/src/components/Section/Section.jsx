@@ -1,8 +1,7 @@
 import s from "./Section.module.css";
 import { Card } from "../Card/Card";
 
-export function Section({ el }) {
-	console.log(el);
+export function Section({ el }) {;
 	return (
 		<section className={s.section}>
 			<h2 className={s.cards__headerline}>{el.name}</h2>

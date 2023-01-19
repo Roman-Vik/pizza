@@ -9,7 +9,6 @@ import { Sliders } from "../../components/Sliders/Sliders";
 import { Section } from "../../components/Section/Section";
 
 export function Main({ data }) {
-	console.log(data);
 
 	return (
 		<main>

@@ -62,16 +62,16 @@
     color: #73798C;
 }
 
-.right_sectiont__selected {
+.right_section__selected {
     display: flex;
     gap: 3px;
 }
 
-.right_sectiont__name {
+.right_section__name {
     display: flex;
 }
 
-.right_sectiont__name {
+.right_section__name {
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -80,7 +80,7 @@
     color: #4D4D4D;
 }
 
-.right_sectiont__name > button {
+.right_section__name > button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,11 +91,10 @@
     border: 0.5px solid #727171;
 }
 
-.right_section__choiceOfIngredients{
-    display: flex;
-    height: 32px;
-    background: #F3F3F7;
-    border-radius: 100px;
+.right_section__values{
+display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 h2{
@@ -185,10 +184,9 @@ h2{
 
 }
 
-
 /*pizzaImg*/
 
-.right_sectiont__choiceOfTest {
+.right_section__choiceOfTest {
     display: flex;
     gap: 10px;
     align-items: center;

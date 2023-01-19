@@ -1,11 +1,13 @@
 import s from "./ToppingToPizza.module.css"
 import {Container} from "../Container/Container";
-import x from "../../components/images/Vector.svg"
-import img from "../../components/images/Ingredients/image_1.png"
+import x from "../../components/images/Vector.png"
+import img from "../../components/images/pizza_1.png"
 import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
+import {ItemSizePizza} from "../ItemSizePizza/ItemSizePizza";
+import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 
 
-export function ToppingToPizza() {
+export function ToppingToPizza({ pizzaDough ,setPizzaDough,sizePizza, setSizePizza}) {
     return (
         <Container>
             <div className={s.topping}>
@@ -18,22 +20,26 @@ export function ToppingToPizza() {
                 <div className={s.right_section}>
                     <h2 className={s.right_section__headLine}>Чиззи чеддер</h2>
                     <p className={s.right_section__text}>{`30 см, традиционное тесто, 480 г`}</p>
-                    <div className={s.right_sectiont__selected}>
-                        <div className={s.right_sectiont__name}>чеддер
+                    <div className={s.right_section__selected}>
+                        <div className={s.right_section__name}>чеддер
                             <button><img src={x} alt="x"/></button>
                             ,
                         </div>
-                        <div className={s.right_sectiont__name}>чеддер
+                        <div className={s.right_section__name}>чеддер
                             <button><img src={x} alt="x"/></button>
                             ,
                         </div>
                     </div>
-                    <div className={s.right_section__choiceOfIngredients}>
-                        <div className={s.right_section__radio}>
-                            <PizzaSelection/>
-                        </div>
+                    <div className={s.right_section__values}>
 
+                        <div className={s.right_section__radio}>
+                            <ItemSizePizza  sizePizza={sizePizza} setSizePizza={setSizePizza}/>
+                        </div>
+                        <div className={s.right_section__radio}>
+                                <ItemTypePizza pizzaDough={pizzaDough}  setPizzaDough={ setPizzaDough} />
+                        </div>
                     </div>
+
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>
                         <div className={s.wrapper__items}>

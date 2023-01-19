@@ -12,12 +12,17 @@ import { Snacks } from "../Pages/Snacks/Snacks"
 import { Desserts } from "../Pages/Desserts/Desserts"
 import { Drinks } from "../Pages/Drinks/Drinks"
 import { OtherProducts } from '../Pages/OtherProducts/OtherProducts';
+import {ToppingToPizza} from "../components/ToppingToPizza/ToppingToPizza";
 
 
 export function App() {
-
     const [data, setData] = useState({});
-	
+	const [sizePizza, setSizePizza] = useState('средняя')
+	const [pizzaDough, setPizzaDough] = useState('традиционное')
+console.log(pizzaDough)
+
+
+
 
 
 	useEffect(() => {
@@ -31,9 +36,10 @@ export function App() {
 			.then((data) => data.json())
 			.then((d) => setData(d));
 	}, []);
-
 	return (
 		<>
+			<ToppingToPizza pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
+							sizePizza={sizePizza} setSizePizza={setSizePizza} />
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route
