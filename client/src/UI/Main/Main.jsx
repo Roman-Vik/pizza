@@ -39,30 +39,3 @@ export function Main({ data }) {
 		</main>
 	);
 }
-
-//{
-/* <Section title="Пицца">
-						<div className={s.cards__items}>
-							{data?.pizzas?.new.map((el, i) => (
-								<Card key={i} {...el} />
-							))}
-							{data?.pizzas?.other.map((el, i) => (
-								<Card key={i} {...el} />
-							))}
-						</div>
-					</Section>
-					<Section title="Комбо">
-						<div className={s.cards__items}>
-							{data?.combo?.map((el, i) => (
-								<Card key={i} {...el} />
-							))}
-						</div>
-					</Section>
-					<Section title="Десерты">
-						<div className={s.cards__items}>
-							{data?.desserts?.map((el, i) => (
-								<Card key={i} {...el} />
-							))}
-						</div>
-					</Section> */
-//}

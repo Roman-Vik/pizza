@@ -6,7 +6,7 @@ import { Container } from "../../components/Container/Container";
 import { Section } from "../../components/Section/Section";
 import { Ul } from "../../components/Ul/Ul";
 
-export function Pizza({}) {
+export function Pizza() {
 	const [data, setData] = useState({});
 	const [nav, setNav] = useState({});
 
