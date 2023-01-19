@@ -91,7 +91,15 @@
     border: 0.5px solid #727171;
 }
 
-
+h2{
+    margin: 19px 0 11px 0;
+    font-family: 'Nunito',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
 /*pizzaImg*/
 .right_section__radio {
     display: inline-flex;
@@ -103,18 +111,52 @@
     background: #F3F3F7;
 }
 
-.radio__inputImg {
-}
-.radio__label{
-    font-family: 'Nunito',sans-serif;
+.name {
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     color: #000000;
-    opacity: 0.7;
+    height: 100%;
 }
+
+.x {
+    height: 31px;
+}
+
+.price {
+    margin-top: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.wrapper__items {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.radio__labelImg {
+    padding: 3px 8px 10px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(6, 5, 50, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
 .radio__inputImg:checked + .radio__labelImg {
     padding: 7px 0 9px 0;
     font-family: 'Nunito', sans-serif;
