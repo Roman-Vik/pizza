@@ -13,7 +13,7 @@ export function Main({ data }) {
 
 	return (
 		<main>
-			<section>
+			<section className={s.navbar}>
 				<Container>
 					<div className={s.menu}>
 						<Ul data={data}></Ul>
