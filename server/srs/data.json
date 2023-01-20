@@ -6,7 +6,8 @@
     "logo": "http://127.0.0.1:5000/photos/logo.svg",
     "tagline": "http://127.0.0.1:5000/photos/tagline.svg",
     "logoImg": "http://127.0.0.1:5000/photos/icons/logo.svg",
-    "check": "http://127.0.0.1:5000/photos/icons/check.svg"
+    "check": "http://127.0.0.1:5000/photos/icons/check.svg",
+    "check_yellow": "http://127.0.0.1:5000/photos/icons/cil_check-circle.svg"
   },
   "list": [
     {

@@ -7,7 +7,7 @@ import {ItemSizePizza} from "../ItemSizePizza/ItemSizePizza";
 import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 
 
-export function ToppingToPizza({ pizzaDough ,setPizzaDough,sizePizza, setSizePizza}) {
+export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
     return (
         <Container>
             <div className={s.topping}>
@@ -33,114 +33,93 @@ export function ToppingToPizza({ pizzaDough ,setPizzaDough,sizePizza, setSizePiz
                     <div className={s.right_section__values}>
 
                         <div className={s.right_section__radio}>
-                            <ItemSizePizza  sizePizza={sizePizza} setSizePizza={setSizePizza}/>
+                            <ItemSizePizza sizePizza={sizePizza} setSizePizza={setSizePizza}/>
                         </div>
                         <div className={s.right_section__radio}>
-                                <ItemTypePizza pizzaDough={pizzaDough}  setPizzaDough={ setPizzaDough} />
+                            <ItemTypePizza pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}/>
                         </div>
                     </div>
 
                     <div className={s.wrapperIngredients}>
                         <h2>Добавить в пиццу</h2>
                         <div className={s.wrapper__items}>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <div className={s.x}>
-                                    <p className={s.name}>Сырный<br/> бортик</p>
-                                </div>
+                            {/*<div>*/}
+                            {/*    /!*1*!/*/}
+                            {/*    <input*/}
+                            {/*        className={s.radio__inputImg}*/}
+                            {/*        src={img}*/}
+                            {/*        type="checkbox"*/}
+                            {/*        name="Ingredients"*/}
+                            {/*        value="mushrooms"*/}
+                            {/*        id="card"*/}
+                            {/*        onClick={e => console.log(e.target.value)}*/}
+                            {/*    />*/}
 
-                                <span className={s.price}>599 ₽</span>
 
-                            </label>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <p className={s.name}>Шампиньоны</p>
-                                <span className={s.price}>39 ₽</span>
+                            {/*    /!*2*!/*/}
+                            {/*    <label className={s.radio__labelImg} htmlFor="card">*/}
+                            {/*        <img width="84px"*/}
+                            {/*             height="84px"*/}
+                            {/*             src={img} alt="111"/>*/}
 
-                            </label>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <p className={s.name}>Цыпленок</p>
-                                <span className={s.price}>59 ₽</span>
+                            {/*    </label>*/}
+                            {/*</div>*/}
+                            <div>
+                                <ul>
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
 
-                            </label>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <p className={s.name}>Моцарелла</p>
-                                <span className={s.price}>100 ₽</span>
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
 
-                            </label>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <p className={s.name}>Халапеньо </p>
-                                <span className={s.price}>119 ₽</span>
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
 
-                            </label>
-                            <label className={s.radio__labelImg} htmlFor="card">
-                                <input
-                                    width="84px"
-                                    height="84px"
-                                    className={s.radio__inputImg}
-                                    src={img}
-                                    type="image"
-                                    name="Ingredients"
-                                    value="mushrooms"
-                                    id="card"
-                                    onClick={e => console.log(e.target.value)}
-                                />
-                                <p className={s.name}>Копченый<br/>цыпленок</p>
-                                <span className={s.price}>599 ₽</span>
-                            </label>
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
+
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
+
+                                    <li><input type="checkbox" id="cb1"/>
+                                        <label htmlFor="cb1">
+                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
+                                            <p className={s.name}>Сырный<br/> бортик</p>
+                                            <span className={s.price}>599 ₽</span>
+                                        </label>
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
