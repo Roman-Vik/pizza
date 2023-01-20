@@ -14,3 +14,15 @@
     flex-direction: column;
 }
 
+@media (max-width: 720px) {
+    .statistic__container {
+        gap: 50px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .statistic__container {
+        display: none;
+    }
+}

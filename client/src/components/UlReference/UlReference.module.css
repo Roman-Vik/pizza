@@ -23,3 +23,9 @@
     opacity: 0.7;
     word-wrap: break-word;
 }
+
+@media (max-width: 720px) {
+    .reference__item {
+        margin: 15px;
+    }
+}

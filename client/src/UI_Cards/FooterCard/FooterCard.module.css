@@ -6,3 +6,9 @@
 .fooCard__wrapperContacts{
   margin-bottom: 47px;
 }
+
+@media (max-width: 320px) {
+  .fooCard {
+    display: none;
+  }
+}
