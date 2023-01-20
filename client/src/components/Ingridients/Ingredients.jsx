@@ -1,5 +1,6 @@
 import s from "../ToppingToPizza/ToppingToPizza.module.css";
 import img from "../images/pizza_1.png";
+import {Button} from "../Button/Button";
 
 
 export function Ingredients() {
@@ -22,7 +23,7 @@ export function Ingredients() {
                        htmlFor="id2">
                     <img src="http://127.0.0.1:5000/photos/ingridients/image_2.png"/>
                     <p className={s.name}>Шампиньоны</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>39 ₽</span>
                 </label>
             </li>
 
@@ -33,7 +34,7 @@ export function Ingredients() {
                     <img className={s.foodImg}
                          src="http://127.0.0.1:5000/photos/ingridients/image_3.png"/>
                     <p className={s.name}>Цыпленок</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>59 ₽</span>
                 </label>
             </li>
 
@@ -43,7 +44,7 @@ export function Ingredients() {
                        htmlFor="id4">
                     <img src="http://127.0.0.1:5000/photos/ingridients/image_4.png"/>
                     <p className={s.name}>Брынза</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>59 ₽</span>
                 </label>
             </li>
 
@@ -54,7 +55,7 @@ export function Ingredients() {
                     <img src="http://127.0.0.1:5000/photos/ingridients/image_5.png"/>
 
                     <p className={s.name}>Халапеньо</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>49 ₽</span>
                 </label>
             </li>
 
@@ -63,10 +64,9 @@ export function Ingredients() {
                 <label className={s.ingredients__label} htmlFor="id6">
                     <img src="http://127.0.0.1:5000/photos/ingridients/image_6.png"/>
                     <p className={s.name}>Индейка</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>69 ₽</span>
                 </label>
             </li>
-
         </ul>
     )
 }

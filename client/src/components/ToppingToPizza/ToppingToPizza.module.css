@@ -24,21 +24,29 @@
     transform: translate(45px, -110%);
     z-index: 1;
 }
+
 .wrapper_img > img {
     display: block;
     width: 372px;
     height: 372px;
 }
+
 .right__section {
     padding: 30px;
 }
+
 .right_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-left: 44px;
     width: 380px;
     height: auto;
     background: #FCFCFC;
     padding: 30px;
+
 }
+
 .right_section__headLine {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -47,6 +55,7 @@
     line-height: 33px;
     color: #000000;
 }
+
 .right_section__text {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -55,13 +64,16 @@
     line-height: 19px;
     color: #73798C;
 }
+
 .right_section__selected {
     display: flex;
     gap: 3px;
 }
+
 .right_section__name {
     display: flex;
 }
+
 .right_section__name {
     font-family: 'Arial', sans-serif;
     font-style: normal;
@@ -70,6 +82,7 @@
     line-height: 15px;
     color: #4D4D4D;
 }
+
 .right_section__name > button {
     display: flex;
     align-items: center;
@@ -80,21 +93,23 @@
     border-radius: 50%;
     border: 0.5px solid #727171;
 }
-.right_section__values{
-display: flex;
+
+.right_section__values {
+    display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.ingredients__headLine{
+.ingredients__headLine {
     margin: 19px 0 11px 0;
-    font-family: 'Nunito',sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     color: #000000;
 }
+
 /*pizzaImg*/
 .right_section__radio {
     display: inline-flex;
@@ -105,8 +120,8 @@ display: flex;
     border-radius: 15px;
     background: #F3F3F7;
 }
-.radio__inputImg:checked + .radio__labelImg {
 
+.radio__inputImg:checked + .radio__labelImg {
     padding: 7px 0 9px 0;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -118,32 +133,20 @@ display: flex;
     left: 858px;
     top: 329px;
     cursor: pointer;
-    /*background: #ffffff;*/
-    /*box-shadow: 0 3px 15px rgba(6, 5, 50, 0.05);*/
-    /*border-radius: 100px;*/
-
-    /*transition: background 0.5s;*/
-    /*opacity: 1;*/
     background-image: url("http://127.0.0.1:5000/photos/icons/logo.svg");
     width: 84px;
     height: 84px;
 }
 
-/*pizzaImg*/
-
-
-
-
-
-/*ul li*/
-
 .ingredients__items {
-   display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
+    margin-bottom: 10px;
 }
-.ingredients__item{
+
+.ingredients__item {
     display: inline-block;
 }
 
@@ -153,7 +156,7 @@ display: flex;
 
 .ingredients__label {
     display: flex;
-    align-items:  center;
+    align-items: center;
     justify-content: space-between;
     flex-direction: column;
     padding: 13px 16px 10px 0;
@@ -185,17 +188,19 @@ display: flex;
     transition-duration: 0.4s;
     transform: scale(0);
 }
-.ingredients__label > .foodImg{
+
+.ingredients__label > .foodImg {
     height: 84px;
     width: 84px;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
 }
-:checked+.ingredients__label {
+
+:checked + .ingredients__label {
     border-color: #ddd;
 }
 
-:checked+.ingredients__label::before {
+:checked + .ingredients__label::before {
     content: "";
     background-image: url("http://127.0.0.1:5000/photos/icons/cil_check-circle.svg");
     background-repeat: no-repeat;
@@ -203,6 +208,7 @@ display: flex;
     height: 14px;
     transform: scale(1);
 }
+
 .name {
     font-family: 'Nunito', sans-serif;
     font-style: normal;

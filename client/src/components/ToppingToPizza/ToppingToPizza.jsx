@@ -6,6 +6,7 @@ import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
 import {ItemSizePizza} from "../ItemSizePizza/ItemSizePizza";
 import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 import {Ingredients} from "../Ingridients/Ingredients";
+import {Button} from "../Button/Button";
 
 
 export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
@@ -32,7 +33,6 @@ export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePiz
                         </div>
                     </div>
                     <div className={s.right_section__values}>
-
                         <div className={s.right_section__radio}>
                             <ItemSizePizza sizePizza={sizePizza} setSizePizza={setSizePizza}/>
                         </div>
@@ -40,11 +40,11 @@ export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePiz
                             <ItemTypePizza pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}/>
                         </div>
                     </div>
-
                     <div className={s.ingredients}>
                         <h2 className={s.ingredients__headLine}>Добавить в пиццу</h2>
                         <Ingredients/>
                     </div>
+                    <Button> {"Добавить в корзину за 0 ₽"}</Button>
                 </div>
             </div>
         </Container>
