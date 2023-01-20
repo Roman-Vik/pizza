@@ -1,15 +1,12 @@
-import s from "./ToppingToPizza.module.css"
+import s from "./ModalPizza.module.css"
 import {Container} from "../Container/Container";
 import x from "../../components/images/Vector.png"
-import img from "../../components/images/pizza_1.png"
-import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
 import {ItemSizePizza} from "../ItemSizePizza/ItemSizePizza";
 import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 import {Ingredients} from "../Ingridients/Ingredients";
 import {Button} from "../Button/Button";
 
-
-export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
+export function ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
     return (
         <Container>
             <div className={s.topping}>

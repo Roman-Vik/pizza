@@ -1,4 +1,4 @@
-import s from "../ToppingToPizza/ToppingToPizza.module.css";
+import s from "../ModalPizza/ModalPizza.module.css";
 import img from "../images/pizza_1.png";
 import {Button} from "../Button/Button";
 

@@ -16,7 +16,7 @@ export function Main({ data }) {
 				<Container>
 					<div className={s.menu}>
 						<Ul data={data}></Ul>
-						<Button></Button>
+						<Button>Корзина</Button>
 					</div>
 				</Container>
 			</section>
