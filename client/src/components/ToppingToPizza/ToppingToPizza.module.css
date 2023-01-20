@@ -24,26 +24,21 @@
     transform: translate(45px, -110%);
     z-index: 1;
 }
-
 .wrapper_img > img {
     display: block;
     width: 372px;
     height: 372px;
 }
-
 .right__section {
     padding: 30px;
 }
-
 .right_section {
     margin-left: 44px;
     width: 380px;
     height: auto;
     background: #FCFCFC;
     padding: 30px;
-
 }
-
 .right_section__headLine {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -52,7 +47,6 @@
     line-height: 33px;
     color: #000000;
 }
-
 .right_section__text {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -61,16 +55,13 @@
     line-height: 19px;
     color: #73798C;
 }
-
 .right_section__selected {
     display: flex;
     gap: 3px;
 }
-
 .right_section__name {
     display: flex;
 }
-
 .right_section__name {
     font-family: 'Arial', sans-serif;
     font-style: normal;
@@ -79,7 +70,6 @@
     line-height: 15px;
     color: #4D4D4D;
 }
-
 .right_section__name > button {
     display: flex;
     align-items: center;
@@ -90,14 +80,13 @@
     border-radius: 50%;
     border: 0.5px solid #727171;
 }
-
 .right_section__values{
 display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-h2{
+.ingredients__headLine{
     margin: 19px 0 11px 0;
     font-family: 'Nunito',sans-serif;
     font-style: normal;
@@ -116,30 +105,6 @@ h2{
     border-radius: 15px;
     background: #F3F3F7;
 }
-
-
-
-.wrapper__items {
-    width: 320px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.radio__labelImg {
-
-    /*padding: 3px 8px 10px 0px;*/
-    /*background: #FFFFFF;*/
-    /*box-shadow: 0 4px 20px rgba(6, 5, 50, 0.05);*/
-    /*border-radius: 12px;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: space-between;*/
-
-
-
-}
-
 .radio__inputImg:checked + .radio__labelImg {
 
     padding: 7px 0 9px 0;
@@ -172,22 +137,21 @@ h2{
 
 /*ul li*/
 
-ul {
- display: flex;
+.ingredients__items {
+   display: flex;
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
 }
-
-li {
+.ingredients__item{
     display: inline-block;
 }
 
-input[type="checkbox"][id^="cb"] {
+.ingredients__input[type="checkbox"][id^="id"] {
     display: none;
 }
 
-label {
+.ingredients__label {
     display: flex;
     align-items:  center;
     justify-content: space-between;
@@ -206,14 +170,14 @@ label {
     user-select: none;
 }
 
-label::before {
+.ingredients__label::before {
     background-color: white;
     color: white;
     content: " ";
     display: block;
     position: absolute;
-    top: -5px;
-    right: -5px;
+    top: 10px;
+    right: 10px;
     width: 25px;
     height: 25px;
     text-align: center;
@@ -221,19 +185,17 @@ label::before {
     transition-duration: 0.4s;
     transform: scale(0);
 }
-
-label > .foodImg{
+.ingredients__label > .foodImg{
     height: 84px;
     width: 84px;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
 }
-
-:checked+label {
+:checked+.ingredients__label {
     border-color: #ddd;
 }
 
-:checked+label::before {
+:checked+.ingredients__label::before {
     content: "";
     background-image: url("http://127.0.0.1:5000/photos/icons/cil_check-circle.svg");
     background-repeat: no-repeat;
@@ -241,8 +203,6 @@ label > .foodImg{
     height: 14px;
     transform: scale(1);
 }
-
-
 .name {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -251,10 +211,8 @@ label > .foodImg{
     line-height: 16px;
     text-align: center;
     color: #000000;
-    height: 100%;
+    height: 32px;
 }
-
-
 
 .price {
     margin-top: 4px;
@@ -265,19 +223,3 @@ label > .foodImg{
     line-height: 19px;
     color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ul li*/
-

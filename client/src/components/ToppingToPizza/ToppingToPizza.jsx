@@ -5,6 +5,7 @@ import img from "../../components/images/pizza_1.png"
 import {PizzaSelection} from "../PizzaSelection/PizzaSelection";
 import {ItemSizePizza} from "../ItemSizePizza/ItemSizePizza";
 import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
+import {Ingredients} from "../Ingridients/Ingredients";
 
 
 export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
@@ -40,87 +41,9 @@ export function ToppingToPizza({pizzaDough, setPizzaDough, sizePizza, setSizePiz
                         </div>
                     </div>
 
-                    <div className={s.wrapperIngredients}>
-                        <h2>Добавить в пиццу</h2>
-                        <div className={s.wrapper__items}>
-                            {/*<div>*/}
-                            {/*    /!*1*!/*/}
-                            {/*    <input*/}
-                            {/*        className={s.radio__inputImg}*/}
-                            {/*        src={img}*/}
-                            {/*        type="checkbox"*/}
-                            {/*        name="Ingredients"*/}
-                            {/*        value="mushrooms"*/}
-                            {/*        id="card"*/}
-                            {/*        onClick={e => console.log(e.target.value)}*/}
-                            {/*    />*/}
-
-
-                            {/*    /!*2*!/*/}
-                            {/*    <label className={s.radio__labelImg} htmlFor="card">*/}
-                            {/*        <img width="84px"*/}
-                            {/*             height="84px"*/}
-                            {/*             src={img} alt="111"/>*/}
-
-                            {/*    </label>*/}
-                            {/*</div>*/}
-                            <div>
-                                <ul>
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                    <li><input type="checkbox" id="cb1"/>
-                                        <label htmlFor="cb1">
-                                            <img className={s.foodImg} src="https://picsum.photos/seed/1/100"/>
-                                            <p className={s.name}>Сырный<br/> бортик</p>
-                                            <span className={s.price}>599 ₽</span>
-                                        </label>
-                                    </li>
-
-                                </ul>
-
-
-                            </div>
-
-
-                        </div>
+                    <div className={s.ingredients}>
+                        <h2 className={s.ingredients__headLine}>Добавить в пиццу</h2>
+                        <Ingredients/>
                     </div>
                 </div>
             </div>
