@@ -1,4 +1,4 @@
-import './App.css';
+import s from './App.module.css';
 import {Routes, Route} from "react-router-dom"
 import {useState, useEffect} from "react";
 import {Home} from '../Pages/Home/Home';
@@ -18,12 +18,9 @@ import {Portal} from "../components/Portal/Portal";
 
 export function App() {
     const [data, setData] = useState({});
-    const [act, setAct] = useState(true);
-
+    const [act, setAct] = useState(false);
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
-    console.log(pizzaDough)
-
 
     useEffect(() => {
         fetch("http://localhost:5000/api", {
@@ -38,16 +35,17 @@ export function App() {
     }, []);
     return (
         <>
+
             <Portal>
-                {act &&   <ModalPizza
+
+                {act &&  <ModalPizza
                     pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
                     sizePizza={sizePizza} setSizePizza={setSizePizza}/>}
 
             </Portal>
 
-
             <Routes>
-                <Route path="/" element={<Home></Home>}></Route>
+                <Route path="/" element={<Home setAct={setAct}></Home>}></Route>
                 <Route
                     path="/basket"
                     element={<BasketPages></BasketPages>}
@@ -56,12 +54,12 @@ export function App() {
                     path="/order"
                     element={<FoodOrdering></FoodOrdering>}
                 ></Route>
-                <Route path="/accepted" element={<Accepted></Accepted>}></Route>
-                <Route path="/pizza" element={<Pizza></Pizza>}></Route>
+                <Route path="/accepted" element={<Accepted ></Accepted>}></Route>
+                <Route path="/pizza" element={<Pizza setAct={setAct}></Pizza>}></Route>
                 <Route path="/combo" element={<Combo></Combo>}></Route>
-                <Route path="/snacks" element={<Snacks></Snacks>}></Route>
-                <Route path="/desserts" element={<Desserts></Desserts>}></Route>
-                <Route path="/drinks" element={<Drinks></Drinks>}></Route>
+                <Route path="/snacks" element={<Snacks ></Snacks>}></Route>
+                <Route path="/desserts" element={<Desserts ></Desserts>}></Route>
+                <Route path="/drinks" element={<Drinks ></Drinks>}></Route>
                 <Route path="/other_products" element={<OtherProducts></OtherProducts>}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useState, useEffect } from "react";
 import { Footer } from "../../UI/Footer/Footer";
@@ -7,7 +6,7 @@ import { Container } from "../../components/Container/Container";
 import { Section } from "../../components/Section/Section";
 import { Ul } from "../../components/Ul/Ul";
 
-export function Pizza() {
+export function Pizza({setAct}) {
 	const [data, setData] = useState({});
 	const [nav, setNav] = useState({});
 
@@ -25,13 +24,13 @@ export function Pizza() {
 				setNav(d);
 			});
 	}, []);
-	console.log(data);
+
 	return (
 		<>
 			<Header></Header>
 			<Container>
 				<Ul data={nav}></Ul>
-				<Section el={data} />
+				<Section setAct={setAct} el={data} />
 			</Container>
 			<Footer></Footer>
 		</>

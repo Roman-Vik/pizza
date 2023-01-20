@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Header } from "../../UI/Header/Header";
 import { Main } from "../../UI/Main/Main";
 
-export function Home() {
+export function Home({setAct}) {
 	const [data, setData] = useState({});
 	
 
@@ -23,7 +23,7 @@ export function Home() {
 	return (
 		<>
 			<Header></Header>
-			<Main data={data} />
+			<Main setAct={setAct} data={data} />
 		</>
 	);
 }

@@ -29,7 +29,7 @@ export function OtherProducts() {
       <Header></Header>
       <Container>
         <Ul data={nav}></Ul>
-        <Section el={data}></Section>
+        <Section  el={data}></Section>
       </Container>
       <Footer></Footer>
     </>

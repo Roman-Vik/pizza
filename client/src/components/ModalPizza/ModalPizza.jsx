@@ -8,6 +8,7 @@ import {Button} from "../Button/Button";
 
 export function ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
     return (
+        <div className={s.wrapperTopping}>
         <Container>
             <div className={s.topping}>
                 <div className={s.left__section}>
@@ -45,5 +46,6 @@ export function ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza})
                 </div>
             </div>
         </Container>
+        </div>
     )
 }
