@@ -7,22 +7,22 @@ export function Order() {
     return (
         <>
             <Container>
-                <main>
+                <main className={s.order__main}>
                     <h2 className={s.headerLine}>Заказ на доставку</h2>
                     <div className={s.order__holder}>
                         <div className={s.order__inputFields}>
 
                             <div className={s.order__items}>
-                                <label htmlFor="name">Имя:</label>
+                                <label htmlFor="name">Имя</label>
                                 <input type="text" id="name" name="name"/>
                             </div>
                             <div className={s.order__items}>
-                                <label  for="phone" >Номер телефона:</label>
+                                <label  for="phone" >Номер телефона</label>
                                 <input  type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
                             </div>
 
                             <div className={`${s.order__items}  ${s.order__items__big}` }>
-                                <label htmlFor="deliver">Куда доставить:</label>
+                                <label htmlFor="deliver">Куда доставить</label>
                                 <input type="text" id="deliver" name="deliver"/>
                             </div>
                             <div className={s.order__wraperBtn}>

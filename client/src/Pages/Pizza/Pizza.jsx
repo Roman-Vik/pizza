@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useState, useEffect } from "react";
 import { Footer } from "../../UI/Footer/Footer";
