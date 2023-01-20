@@ -144,7 +144,6 @@
 	border: 1px solid #e1e1e8;
 	border-radius: 10px;
 	height: 104px;
-	
 }
 
 .cont_btn {
@@ -214,9 +213,127 @@
 	padding: 5px;
 }
 
+.card1 {
+	display: none;
+}
+
 .line {
 	border-top: 1px solid #e1e1e8;
 }
 .line_but {
 	border-bottom: 1px solid #e1e1e8;
+}
+
+/* @media (max-width: 1274px) {
+	.card1 {
+		display: none;
+	}
+} */
+@media (max-width: 690.98px) {
+	.com_card {
+		padding: 13px 14px 10px 13px;
+		display: flex;
+		background: #ffffff;
+		border: 1px solid #e1e1e8;
+		border-radius: 10px;
+		height: 104px;
+	}
+}
+@media (max-width: 676.98px) {
+	.card1 {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		overflow: auto;
+	}
+	.com_card {
+		display: none;
+	}
+	.com_card1 {
+		padding: 13px 14px 10px 13px;
+		display: flex;
+		background: #ffffff;
+		border: 1px solid #e1e1e8;
+		border-radius: 10px;
+		height: 104px;
+	}
+	.com_btn {
+		padding: 6px 0 7px 0;
+		width: 96px;
+		border: none;
+		border-radius: 1000px;
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+	}
+}
+@media (max-width: 530.98px) {
+	.contant {
+		padding: 25px 0 25px 0;
+		display: grid;
+		justify-content: center;
+	}
+	.div_h1 {
+		padding: 70px 0 30px 0;
+		display: grid;
+		justify-content: center;
+	}
+	.div_h2 {
+		padding: 70px 0 30px 10px;
+	}
+}
+
+@media (max-width: 444.98px) {
+	.btn_start {
+		width: 100%;
+		min-height: 48px;
+		background: #f96900;
+		border-radius: 1000px;
+		border: none;
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		color: #ffffff;
+	}
+	.cont_btn {
+		padding: 27px 0 70px 0;
+
+		justify-content: center;
+	}
+
+	.btn_back {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.summ {
+		display: flex;
+		justify-content: center;
+	}
+	.summ_text {
+		padding-left: 90px;
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 25px;
+		color: #000000;
+		margin-top: 5px;
+	}
+
+	.h3 {
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 25px;
+		color: #000000;
+	}
 }

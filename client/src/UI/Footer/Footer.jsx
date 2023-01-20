@@ -15,7 +15,7 @@ import {SN} from "../../components/SN(Social Networking)/SN";
 
 export function Footer() {
     return (
-        <footer style={{background: "rgb(70, 76, 85)"}}>
+        <footer className={s.footer} style={{background: "rgb(70, 76, 85)"}}>
             <Container>
                 <div className={s.ftr}>
                     <div className={s.ftr__copyright}>

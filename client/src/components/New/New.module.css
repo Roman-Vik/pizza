@@ -42,6 +42,10 @@
 	gap: 22px;
 }
 
+.item:hover {
+	box-shadow: none;
+}
+
 .wrap {
 	width: 76px;
 	height: 76px;
@@ -75,4 +79,31 @@
 	font-size: 16px;
 	line-height: 22px;
 	color: #000000;
+}
+
+@media (max-width: 320px) {
+	.box {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		overflow: auto;
+	}
+}
+
+@media (max-width: 520px) {
+	.box {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		overflow: auto;
+	}
+}
+
+@media (max-width: 1020px) {
+	.box {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		overflow: auto;
+	}
 }
