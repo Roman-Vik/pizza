@@ -13,7 +13,7 @@ export function Ingredients() {
                     <img className={s.foodImg}
                          src="http://127.0.0.1:5000/photos/ingridients/image_1.png"/>
                     <p className={s.name}>Сырный<br/> бортик</p>
-                    <span className={s.price}>599 ₽</span>
+                    <span className={s.price}>59 ₽</span>
                 </label>
             </li>
 
