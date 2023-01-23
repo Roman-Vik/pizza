@@ -1,0 +1,205 @@
+.topping {
+    max-width: 920px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 38px;
+}
+
+.radius {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 76px 0;
+    width: 458px;
+    height: 458px;
+    border-radius: 50%;
+    border: 3px dashed #A7A7A7;
+    z-index: 2;
+}
+
+.wrapper_img {
+    position: absolute;
+    transform: translate(45px, -110%);
+    z-index: 1;
+}
+
+.wrapper_img > img {
+    display: block;
+    width: 372px;
+    height: 372px;
+}
+
+.right__section {
+    padding: 30px;
+}
+
+.right_section {
+    margin-left: 44px;
+    width: 380px;
+    height: auto;
+    background: #FCFCFC;
+    padding: 30px;
+
+}
+
+.right_section__headLine {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.right_section__text {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #73798C;
+}
+
+.right_sectiont__selected {
+    display: flex;
+    gap: 3px;
+}
+
+.right_sectiont__name {
+    display: flex;
+}
+
+.right_sectiont__name {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #4D4D4D;
+}
+
+.right_sectiont__name > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 0.5px solid #727171;
+}
+
+.right_section__choiceOfIngredients{
+    display: flex;
+    height: 32px;
+    background: #F3F3F7;
+    border-radius: 100px;
+}
+
+h2{
+    margin: 19px 0 11px 0;
+    font-family: 'Nunito',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+/*pizzaImg*/
+.right_section__radio {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+    background: #F3F3F7;
+}
+
+.name {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    height: 100%;
+}
+
+.x {
+    height: 31px;
+}
+
+.price {
+    margin-top: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.wrapper__items {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.radio__labelImg {
+    padding: 3px 8px 10px 0px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(6, 5, 50, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.radio__inputImg:checked + .radio__labelImg {
+    padding: 7px 0 9px 0;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    width: 104px;
+    height: 28px;
+    left: 858px;
+    top: 329px;
+    background: #ffffff;
+    box-shadow: 0 3px 15px rgba(6, 5, 50, 0.05);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background 0.5s;
+    opacity: 1;
+
+}
+
+
+/*pizzaImg*/
+
+.right_sectiont__choiceOfTest {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #2e598b;
+}
+
+.right_section__radio {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 320px;
+    height: 32px;
+}

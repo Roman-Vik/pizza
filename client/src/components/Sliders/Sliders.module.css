@@ -8,3 +8,38 @@
 	width: 1060px;
 }
 
+@media (max-width: 1020px) {
+	.card {
+		border-radius: 20px;
+		height: 235px;
+		margin-left: 124px;
+	}
+
+	.slidesPerView {
+		width: 1060px;
+	}
+}
+
+@media (max-width: 520px) {
+	.card {
+		border-radius: 20px;
+		height: 125px;
+		margin-left: 124px;
+	}
+
+	.slidesPerView {
+		width: 1060px;
+	}
+}
+
+@media (max-width: 320px) {
+	.card {
+		border-radius: 20px;
+		height: 80px;
+		margin-left: 124px;
+	}
+
+	.slidesPerView {
+		width: 1060px;
+	}
+}
