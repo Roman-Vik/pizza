@@ -1,12 +1,12 @@
-.wrapperTopping{
+.wrapperTopping {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:1280px;
-    height:100vh;
-    background: rgba(0,0,0,0.4);
+    width: 1280px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 999999;
 }
 
@@ -16,8 +16,6 @@
     margin: 0 auto;
     display: flex;
     padding-left: 38px;
-
-
     background: rgb(255, 255, 255);
 }
 
