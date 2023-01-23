@@ -20,7 +20,12 @@ export function App() {
     const [act, setAct] = useState(false);
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
-    const [linkPizza, setLinkPizza] = useState(null)
+    const [linkPizza, setLinkPizza] = useState(0)
+
+
+    const [pricePizza, setPricePizza] = useState('')
+
+
 
 
     useEffect(() => {
@@ -36,16 +41,17 @@ export function App() {
     }, []);
     return (
         <>
-
             <Portal>
                 {act && <ModalPizza
+                    pricePizza={pricePizza}
+                    linkPizza={linkPizza}
                     setAct={setAct}
                     pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
                     sizePizza={sizePizza} setSizePizza={setSizePizza}/>}
             </Portal>
-
             <Routes>
-                <Route path="/" element={<Home setAct={setAct}></Home>}></Route>
+                <Route path="/" element={<Home setPricePizza={setPricePizza} setLinkPizza={setLinkPizza}
+                                               setAct={setAct}></Home>}></Route>
                 <Route
                     path="/basket"
                     element={<BasketPages></BasketPages>}
@@ -55,7 +61,8 @@ export function App() {
                     element={<FoodOrdering></FoodOrdering>}
                 ></Route>
                 <Route path="/accepted" element={<Accepted></Accepted>}></Route>
-                <Route path="/pizza" element={<Pizza setLinkPizza={setLinkPizza} setAct={setAct}></Pizza>}></Route>
+                <Route path="/pizza" element={<Pizza setPricePizza={setPricePizza} setLinkPizza={setLinkPizza}
+                                                     setAct={setAct}></Pizza>}></Route>
                 <Route path="/combo" element={<Combo></Combo>}></Route>
                 <Route path="/snacks" element={<Snacks></Snacks>}></Route>
                 <Route path="/desserts" element={<Desserts></Desserts>}></Route>

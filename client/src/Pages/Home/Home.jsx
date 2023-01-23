@@ -3,10 +3,8 @@ import { useState, useEffect } from "react";
 import { Header } from "../../UI/Header/Header";
 import { Main } from "../../UI/Main/Main";
 
-export function Home({setAct}) {
+export function Home({setAct, setLinkPizza, setPricePizza}) {
 	const [data, setData] = useState({});
-	
-
 
 	useEffect(() => {
 		fetch("http://localhost:5000/api", {
@@ -23,7 +21,7 @@ export function Home({setAct}) {
 	return (
 		<>
 			<Header></Header>
-			<Main setAct={setAct} data={data} />
+			<Main setPricePizza={setPricePizza} setLinkPizza={setLinkPizza} setAct={setAct} data={data} />
 		</>
 	);
 }

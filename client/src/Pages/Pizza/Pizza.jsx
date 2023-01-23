@@ -6,9 +6,10 @@ import { Container } from "../../components/Container/Container";
 import { Section } from "../../components/Section/Section";
 import { Ul } from "../../components/Ul/Ul";
 
-export function Pizza({setAct, setLinkPizza}) {
+export function Pizza({setAct, setLinkPizza, setPricePizza}) {
 	const [data, setData] = useState({});
 	const [nav, setNav] = useState({});
+
 
 	useEffect(() => {
 		fetch("http://localhost:5000/api", {
@@ -30,7 +31,7 @@ export function Pizza({setAct, setLinkPizza}) {
 			<Header></Header>
 			<Container>
 				<Ul data={nav}></Ul>
-				<Section  setLinkPizza={setLinkPizza} setAct={setAct} el={data} />
+				<Section setPricePizza={setPricePizza}  setLinkPizza={setLinkPizza} setAct={setAct} el={data} />
 			</Container>
 			<Footer></Footer>
 		</>

@@ -4,7 +4,12 @@
     flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
+    margin-bottom: 10px;
+    height: 300px;
+    overflow: auto;
 }
+.ingredients__items::-webkit-scrollbar { width: 0px; }
+
 .ingredients__item{
     display: inline-block;
 }

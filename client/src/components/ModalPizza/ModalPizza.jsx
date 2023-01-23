@@ -6,7 +6,7 @@ import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 import {Ingredients} from "../Ingridients/Ingredients";
 import {Button} from "../Button/Button";
 
-export function  ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza, setAct}) {
+export function  ModalPizza({linkPizza,pizzaDough, setPizzaDough, sizePizza, setSizePizza, setAct, pricePizza}) {
     return (
         <div className={s.wrapperTopping}  onClick={()=> setAct(false)}>
         <Container>
@@ -14,7 +14,7 @@ export function  ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza,
                 <div className={s.left__section}>
                     <div className={s.radius}></div>
                     <div className={s.wrapper_img}>
-                        <img src="http://127.0.0.1:5000/photos/items/pizzas/pizza-7-2x.webp" alt="dddd"/>
+                        <img src={linkPizza} alt="dddd"/>
                     </div>
                 </div>
                 <div className={s.right_section}>
@@ -42,7 +42,7 @@ export function  ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza,
                         <h2 className={s.ingredients__headLine}>Добавить в пиццу</h2>
                         <Ingredients/>
                     </div>
-                    <Button> {"Добавить в корзину за 0 ₽"}</Button>
+                    <Button> {`Добавить в корзину за ${pricePizza} ₽`}</Button>
                 </div>
             </div>
         </Container>
