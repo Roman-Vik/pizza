@@ -150,6 +150,10 @@
   color: #ffffff;
 }
 
+.a_order {
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .order__holder {
     display: block;
