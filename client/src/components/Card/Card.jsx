@@ -10,7 +10,7 @@ import React, {useMemo} from "react";
 				{" "}
 				<div className={s.cards__wrapper}>
 					{" "}
-					<img className={s.cards__img} src={img} srcset={`${imgX2} 2x`} alt="Pizza" />{" "}
+					<img className={s.cards__img} src={img} srcSet={`${imgX2} 2x`} alt="Pizza" />{" "}
 
 				</div>{" "}
 				<div className={s.cards__description}>
