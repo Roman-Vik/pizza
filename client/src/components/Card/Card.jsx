@@ -4,7 +4,7 @@ export function Card({ el, setAct, setLinkPizza }) {
 
 
 	const { title, img, description, price } = el;
-	console.log(setLinkPizza)
+
 	return (
 		<>
 			<div className={s.cards}>

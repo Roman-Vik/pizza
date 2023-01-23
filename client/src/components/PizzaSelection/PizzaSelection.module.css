@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+.right_section__radio {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+    background: #F3F3F7;
+}
+
+>>>>>>> main
 .radio__input {
     display: none;
 }
@@ -23,11 +36,19 @@
     height: 28px;
     left: 858px;
     top: 329px;
+<<<<<<< HEAD
     background: #1839de;
+=======
+    background: #ffffff;
+>>>>>>> main
     box-shadow: 0 3px 15px rgba(6, 5, 50, 0.05);
     border-radius: 100px;
     cursor: pointer;
     transition: background 0.5s;
     opacity: 1;
     display: block;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

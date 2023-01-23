@@ -143,6 +143,53 @@ export function Basket() {
 								</div>
 							</SwiperSlide>
 						</Swiper>
+						<section className={s.card1}>
+							<div className={s.com_card1}>
+								<div className={s.cont_img}>
+									<img
+										className={s.com_img}
+										src={icon5}
+										alt="icon3"
+									/>
+								</div>
+								<div className={s.cont_inf}>
+									<p className={s.com_text}>
+										Картофель из печи
+									</p>
+									<p className={s.com_btn}>99 ₽</p>
+								</div>
+							</div>
+							<div className={s.com_card1}>
+								<div className={s.cont_img}>
+									<img
+										className={s.com_img}
+										src={icon5}
+										alt="icon3"
+									/>
+								</div>
+								<div className={s.cont_inf}>
+									<p className={s.com_text}>
+										Картофель из печи
+									</p>
+									<p className={s.com_btn}>99 ₽</p>
+								</div>
+							</div>
+							<div className={s.com_card1}>
+								<div className={s.cont_img}>
+									<img
+										className={s.com_img}
+										src={icon5}
+										alt="icon3"
+									/>
+								</div>
+								<div className={s.cont_inf}>
+									<p className={s.com_text}>
+										Картофель из печи
+									</p>
+									<p className={s.com_btn}>99 ₽</p>
+								</div>
+							</div>
+						</section>
 					</div>
 				</section>
 				<section className={s.summ}>
@@ -154,7 +201,9 @@ export function Basket() {
 				<section className={s.head_btn}>
 					<div className={s.cont_btn}>
 						<button className={s.btn_back}>Вернуться в меню</button>
-						<button className={s.btn_start}><Link to="/order">Оформить заказ</Link></button>
+						<button className={s.btn_start}>
+							<Link to="/order">Оформить заказ</Link>
+						</button>
 					</div>
 				</section>
 			</Container2>

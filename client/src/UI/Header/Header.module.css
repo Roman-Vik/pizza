@@ -14,7 +14,7 @@
 .tel {
 	width: 144px;
 	height: 25px;
-	font-family: "Nunito",sans-serif;
+	font-family: "Nunito", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
@@ -27,6 +27,14 @@
 	max-width: 1060px;
 }
 
-.itemsCnt {
-	
+@media (max-width: 320px) {
+	.itemsCnt {
+		display: none;
+	}
+}
+
+@media (max-width: 520px) {
+	.itemsCnt {
+		display: none;
+	}
 }

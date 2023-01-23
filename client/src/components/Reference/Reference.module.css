@@ -16,5 +16,18 @@ ul{
 }
 
 
+@media (max-width: 1100px) {
+    .reference__wrapper {
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .reference {
+        width: 100%;
+    }
+    
+}
+
 
 

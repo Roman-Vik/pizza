@@ -1,4 +1,3 @@
-import s from './App.module.css';
 import {Routes, Route} from "react-router-dom"
 import {useState, useEffect} from "react";
 import {Home} from '../Pages/Home/Home';
@@ -22,7 +21,6 @@ export function App() {
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
     const [linkPizza, setLinkPizza] = useState(null)
-
 
 
     useEffect(() => {
@@ -57,7 +55,7 @@ export function App() {
                     element={<FoodOrdering></FoodOrdering>}
                 ></Route>
                 <Route path="/accepted" element={<Accepted></Accepted>}></Route>
-                <Route path="/pizza" element={<Pizza setLinkPizza={setLinkPizza}  setAct={setAct}></Pizza>}></Route>
+                <Route path="/pizza" element={<Pizza setLinkPizza={setLinkPizza} setAct={setAct}></Pizza>}></Route>
                 <Route path="/combo" element={<Combo></Combo>}></Route>
                 <Route path="/snacks" element={<Snacks></Snacks>}></Route>
                 <Route path="/desserts" element={<Desserts></Desserts>}></Route>
@@ -68,3 +66,4 @@ export function App() {
         </>
     );
 }
+
