@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+
+export function PizzaSelection() {
+
+    return (<>
+
+
+    </>
+=======
 import s from "./PizzaSelection.module.css"
 
 export function PizzaSelection() {
@@ -29,6 +38,7 @@ export function PizzaSelection() {
             </div>
         </>
 
+>>>>>>> main
 
     )
 }

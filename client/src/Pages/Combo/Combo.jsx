@@ -29,7 +29,7 @@ export function Combo() {
 			<Header></Header>
 			<Container>
 				<Ul data={nav}></Ul>
-				<Section el={data} />
+				<Section  el={data} />
 			</Container>
 			<Footer></Footer>
 		</>

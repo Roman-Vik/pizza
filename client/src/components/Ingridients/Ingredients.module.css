@@ -1,0 +1,92 @@
+
+.ingredients__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+}
+.ingredients__item{
+    display: inline-block;
+}
+
+.ingredients__input[type="checkbox"][id^="id"] {
+    display: none;
+}
+
+.ingredients__label {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 13px 16px 10px 0;
+    position: relative;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0 4px 5px rgba(6, 5, 50, 0.05);
+    border-radius: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ingredients__label::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.ingredients__label > .foodImg{
+    height: 84px;
+    width: 84px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+:checked+.ingredients__label {
+    border-color: #ddd;
+}
+
+:checked+.ingredients__label::before {
+    content: "";
+    background-image: url("http://127.0.0.1:5000/photos/icons/cil_check-circle.svg");
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    transform: scale(1);
+}
+
+
+.name {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    height: 32px;
+}
+
+.price {
+    margin-top: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+

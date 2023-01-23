@@ -8,8 +8,7 @@ import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
 import { Section } from "../../components/Section/Section";
 
-export function Main({ data }) {
-	console.log(data);
+export function Main({ data, setAct }) {
 
 	return (
 		<main>
@@ -17,7 +16,7 @@ export function Main({ data }) {
 				<Container>
 					<div className={s.menu}>
 						<Ul data={data}></Ul>
-						<Button></Button>
+						<Button>Корзина</Button>
 					</div>
 				</Container>
 			</section>
@@ -26,7 +25,7 @@ export function Main({ data }) {
 				<Container>
 					<New data={data} />
 					{data?.products?.map((el, i) => (
-						<Section key={i} el={el} />
+						<Section setAct={setAct} key={i} el={el} />
 					))}
 				</Container>
 			</section>

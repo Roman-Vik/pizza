@@ -6,8 +6,18 @@
     "logo": "http://127.0.0.1:5000/photos/logo.svg",
     "tagline": "http://127.0.0.1:5000/photos/tagline.svg",
     "logoImg": "http://127.0.0.1:5000/photos/icons/logo.svg",
-    "check": "http://127.0.0.1:5000/photos/icons/check.svg"
+    "check": "http://127.0.0.1:5000/photos/icons/check.svg",
+    "check_yellow": "http://127.0.0.1:5000/photos/icons/cil_check-circle.svg"
   },
+	"ingridients": {
+		"cheeseSide": "http://127.0.0.1:5000/photos/ingridients/image_1.png",
+		"champignons": "http://127.0.0.1:5000/photos/ingridients/image_2.png",
+		"chicken": "http://127.0.0.1:5000/photos/ingridients/image_3.png",
+		"brynza": "http://127.0.0.1:5000/photos/ingridients/image_4.png",
+		"jalapeno": "http://127.0.0.1:5000/photos/ingridients/image_5.png",
+		"turkey": "http://127.0.0.1:5000/photos/ingridients/image_6.png"
+
+	},
   "list": [
     {
       "title": "Пицца",
