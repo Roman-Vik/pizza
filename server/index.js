@@ -1,12 +1,12 @@
 import express, {request} from "express"
 import cors from "cors"
-import data from './srs/data.json' assert {type: 'json'};
-import drinks from './srs/pages/drinks.json' assert {type: 'json'};
-import pizza from './srs/pages/pizzas.json' assert {type: 'json'};
-import combo from './srs/pages/combo.json' assert {type: 'json'};
-import snacks from './srs/pages/snacks.json' assert {type: 'json'};
-import desserts from './srs/pages/dessert.json' assert {type: 'json'};
-import other from './srs/pages/other.json' assert {type: 'json'};
+import data from './src/data.json' assert {type: 'json'};
+import drinks from './src/pages/drinks.json' assert {type: 'json'};
+import pizza from './src/pages/pizzas.json' assert {type: 'json'};
+import combo from './src/pages/combo.json' assert {type: 'json'};
+import snacks from './src/pages/snacks.json' assert {type: 'json'};
+import desserts from './src/pages/dessert.json' assert {type: 'json'};
+import other from './src/pages/other.json' assert {type: 'json'};
 
 const app =  express()
 
