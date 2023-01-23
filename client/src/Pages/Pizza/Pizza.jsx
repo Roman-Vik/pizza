@@ -10,6 +10,7 @@ export function Pizza({setAct, setLinkPizza}) {
 	const [data, setData] = useState({});
 	const [nav, setNav] = useState({});
 
+
 	useEffect(() => {
 		fetch("http://localhost:5000/api", {
 			method: "GET",

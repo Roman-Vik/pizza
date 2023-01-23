@@ -1,7 +1,8 @@
 import s from "./Section.module.css";
-import { Card } from "../Card/Card";
+import  Card  from "../Card/Card";
 
-export function Section({ el, setAct,  setLinkPizza }) {;
+export function Section({ el, setAct,  setLinkPizza }) {
+
 	return (
 		<section className={s.section}>
 			<h2 className={s.cards__headerline}>{el.name}</h2>

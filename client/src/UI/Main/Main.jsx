@@ -8,7 +8,7 @@ import { New } from "../../components/New/New";
 import { Sliders } from "../../components/Sliders/Sliders";
 import { Section } from "../../components/Section/Section";
 
-export function Main({ data, setAct }) {
+export function Main({ data, setAct, setLinkPizza }) {
 
 	return (
 		<main>
@@ -25,7 +25,7 @@ export function Main({ data, setAct }) {
 				<Container>
 					<New data={data} />
 					{data?.products?.map((el, i) => (
-						<Section setAct={setAct} key={i} el={el} />
+						<Section setLinkPizza={setLinkPizza} setAct={setAct} key={i} el={el} />
 					))}
 				</Container>
 			</section>

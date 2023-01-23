@@ -20,7 +20,10 @@ export function App() {
     const [act, setAct] = useState(false);
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
-    const [linkPizza, setLinkPizza] = useState(null)
+    const [linkPizza, setLinkPizza] = useState('')
+
+
+
 
 
     useEffect(() => {
@@ -39,13 +42,14 @@ export function App() {
 
             <Portal>
                 {act && <ModalPizza
+                    linkPizza={linkPizza}
                     setAct={setAct}
                     pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
                     sizePizza={sizePizza} setSizePizza={setSizePizza}/>}
             </Portal>
 
             <Routes>
-                <Route path="/" element={<Home setAct={setAct}></Home>}></Route>
+                <Route path="/" element={<Home   setLinkPizza={setLinkPizza} setAct={setAct}></Home>}></Route>
                 <Route
                     path="/basket"
                     element={<BasketPages></BasketPages>}
