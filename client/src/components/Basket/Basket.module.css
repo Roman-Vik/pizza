@@ -224,6 +224,10 @@
 	border-bottom: 1px solid #e1e1e8;
 }
 
+.a_order {
+	color: #fff;
+}
+
 /* @media (max-width: 1274px) {
 	.card1 {
 		display: none;

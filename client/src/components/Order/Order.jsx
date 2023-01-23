@@ -1,6 +1,5 @@
 import s from './Order.module.css'
 import {Container} from "../Container/Container";
-import {Footer} from "../../UI/Footer/Footer";
 import { Link } from 'react-router-dom';
 
 export function Order() {
@@ -27,7 +26,7 @@ export function Order() {
                             </div>
                             <div className={s.order__wraperBtn}>
                                 <button className={`${s.btn} ${s.btn__gray}`}>  <span> &#65308;</span> Вернуться в меню  </button>
-                                <button className={`${s.btn} ${s.btn__orange}`}><Link to="/accepted">Оформить заказ <span> &#65310;</span>  </Link></button>
+                                <button className={`${s.btn} ${s.btn__orange}`}><Link className={s.a_order} to="/accepted">Оформить заказ <span> &#65310;</span>  </Link></button>
                             </div>
                             </div>
                         <div className={s.aside}>

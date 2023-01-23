@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  justify-content: space-around;
+  background: #f3f3f7;
+  border-radius: 1000px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #73798c;
+  padding: 0 14px;
+}
+
+.btn_min {
+  background: #f3f3f7;
+  border: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #73798c;
+}
+
+.btn_sum {
+  background: #f3f3f7;
+  border: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #73798c;
+}
+
+.btn_num {
+	padding: 5px 21px;
+}
