@@ -21,7 +21,7 @@ export function App() {
     const [act, setAct] = useState(false);
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
-
+    console.log(act)
     useEffect(() => {
         fetch("http://localhost:5000/api", {
             method: "GET",
@@ -37,11 +37,10 @@ export function App() {
         <>
 
             <Portal>
-
                 {act &&  <ModalPizza
+                    setAct={setAct}
                     pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
                     sizePizza={sizePizza} setSizePizza={setSizePizza}/>}
-
             </Portal>
 
             <Routes>

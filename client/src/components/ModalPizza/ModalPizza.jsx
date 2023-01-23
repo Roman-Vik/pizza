@@ -6,11 +6,11 @@ import {ItemTypePizza} from "../ItemTypePizza/ItemTypePizza";
 import {Ingredients} from "../Ingridients/Ingredients";
 import {Button} from "../Button/Button";
 
-export function ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza}) {
+export function  ModalPizza({pizzaDough, setPizzaDough, sizePizza, setSizePizza, setAct}) {
     return (
-        <div className={s.wrapperTopping}>
+        <div className={s.wrapperTopping}  onClick={()=> setAct(false)}>
         <Container>
-            <div className={s.topping}>
+            <div onClick={e => e.stopPropagation()} className={s.topping}>
                 <div className={s.left__section}>
                     <div className={s.radius}></div>
                     <div className={s.wrapper_img}>
