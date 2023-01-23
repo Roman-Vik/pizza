@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import { Link } from "react-router-dom";
+import { Counter } from "../Counter/Counter";
 
 export function Basket() {
 	return (
@@ -35,11 +36,7 @@ export function Basket() {
 						</div>
 
 						<div className={s.btn_info}>
-							<div className={s.btn}>
-								<button className={s.btn_min}>-</button>
-								<p className={s.btn_num}>3</p>
-								<button className={s.btn_sum}>+</button>
-							</div>
+							<Counter></Counter>
 							<div className={s.sum}>
 								<p className={s.style_sum}>3 799 ₽</p>
 							</div>
@@ -64,11 +61,7 @@ export function Basket() {
 							</div>
 						</div>
 						<div className={s.btn_info}>
-							<div className={s.btn}>
-								<button className={s.btn_min}>-</button>
-								<p className={s.btn_num}>1</p>
-								<button className={s.btn_sum}>+</button>
-							</div>
+							<Counter></Counter>
 							<div className={s.sum}>
 								<p className={s.style_sum}>159 ₽</p>
 							</div>
@@ -202,7 +195,7 @@ export function Basket() {
 					<div className={s.cont_btn}>
 						<button className={s.btn_back}>Вернуться в меню</button>
 						<button className={s.btn_start}>
-							<Link to="/order">Оформить заказ</Link>
+							<Link className={s.a_order} to="/order">Оформить заказ</Link>
 						</button>
 					</div>
 				</section>
