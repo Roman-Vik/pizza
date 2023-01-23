@@ -27,7 +27,6 @@ export function Sliders() {
 							/>
 						</div>
 					</SwiperSlide>
-
 					<SwiperSlide className={s.com_card}>
 						<div className={s.slidesPerView}>
 							<img
