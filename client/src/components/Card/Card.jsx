@@ -1,8 +1,8 @@
 import s from "./Card.module.css";
 import React, {useMemo} from "react";
 
- function Card({ el, setAct, setLinkPizza }) {
-	const { title, img, imgX2, description, price } = el;
+ function Card({ el, setAct, setLinkPizza , setPricePizza}) {
+	const { title, img, imgX2, description, price,  } = el;
 
 	 return (
 		<>
@@ -23,6 +23,7 @@ import React, {useMemo} from "react";
 					{" "}
 					<p className={s.cards__price}>{`от ${price} ₽`}</p>{" "}
 					<button onClick={() => {
+						setPricePizza(price)
 						setAct(true)
 						setLinkPizza(imgX2)
 					}
