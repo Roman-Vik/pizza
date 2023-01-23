@@ -21,7 +21,10 @@ export function App() {
     const [act, setAct] = useState(false);
     const [sizePizza, setSizePizza] = useState('средняя')
     const [pizzaDough, setPizzaDough] = useState('традиционное')
-    console.log(act)
+    const [linkPizza, setLinkPizza] = useState(null)
+
+
+
     useEffect(() => {
         fetch("http://localhost:5000/api", {
             method: "GET",
@@ -37,7 +40,7 @@ export function App() {
         <>
 
             <Portal>
-                {act &&  <ModalPizza
+                {act && <ModalPizza
                     setAct={setAct}
                     pizzaDough={pizzaDough} setPizzaDough={setPizzaDough}
                     sizePizza={sizePizza} setSizePizza={setSizePizza}/>}
@@ -53,12 +56,12 @@ export function App() {
                     path="/order"
                     element={<FoodOrdering></FoodOrdering>}
                 ></Route>
-                <Route path="/accepted" element={<Accepted ></Accepted>}></Route>
-                <Route path="/pizza" element={<Pizza setAct={setAct}></Pizza>}></Route>
+                <Route path="/accepted" element={<Accepted></Accepted>}></Route>
+                <Route path="/pizza" element={<Pizza setLinkPizza={setLinkPizza}  setAct={setAct}></Pizza>}></Route>
                 <Route path="/combo" element={<Combo></Combo>}></Route>
-                <Route path="/snacks" element={<Snacks ></Snacks>}></Route>
-                <Route path="/desserts" element={<Desserts ></Desserts>}></Route>
-                <Route path="/drinks" element={<Drinks ></Drinks>}></Route>
+                <Route path="/snacks" element={<Snacks></Snacks>}></Route>
+                <Route path="/desserts" element={<Desserts></Desserts>}></Route>
+                <Route path="/drinks" element={<Drinks></Drinks>}></Route>
                 <Route path="/other_products" element={<OtherProducts></OtherProducts>}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>

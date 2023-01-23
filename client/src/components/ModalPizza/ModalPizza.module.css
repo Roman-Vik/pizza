@@ -17,6 +17,7 @@
     display: flex;
     padding-left: 38px;
     background: rgb(255, 255, 255);
+    align-items: center;
 }
 
 .radius {

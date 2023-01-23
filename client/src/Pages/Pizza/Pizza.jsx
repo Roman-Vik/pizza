@@ -6,7 +6,7 @@ import { Container } from "../../components/Container/Container";
 import { Section } from "../../components/Section/Section";
 import { Ul } from "../../components/Ul/Ul";
 
-export function Pizza({setAct}) {
+export function Pizza({setAct, setLinkPizza}) {
 	const [data, setData] = useState({});
 	const [nav, setNav] = useState({});
 
@@ -30,7 +30,7 @@ export function Pizza({setAct}) {
 			<Header></Header>
 			<Container>
 				<Ul data={nav}></Ul>
-				<Section setAct={setAct} el={data} />
+				<Section  setLinkPizza={setLinkPizza} setAct={setAct} el={data} />
 			</Container>
 			<Footer></Footer>
 		</>

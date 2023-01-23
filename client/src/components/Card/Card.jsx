@@ -1,9 +1,10 @@
 import s from "./Card.module.css";
 
-export function Card({ el, setAct }) {
+export function Card({ el, setAct, setLinkPizza }) {
 
 
 	const { title, img, description, price } = el;
+	console.log(setLinkPizza)
 	return (
 		<>
 			<div className={s.cards}>
@@ -21,7 +22,7 @@ export function Card({ el, setAct }) {
 				<div className={s.cards__option}>
 					{" "}
 					<p className={s.cards__price}>{`от ${price} ₽`}</p>{" "}
-					<button onClick={() => setAct(true)} className={s.cards__choice}>Выбрать</button>{" "}
+					<button onClick={() => (setAct(true) && setLinkPizza(img) )  } className={s.cards__choice}>Выбрать</button>{" "}
 				</div>{" "}
 			</div>
 		</>
