@@ -3,7 +3,7 @@ import { useState } from "react";
 import s from "./Counter.module.css";
 
 export function Counter() {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
 
   const increase = () => {
     setCounter((count) => count + 1);
@@ -15,7 +15,7 @@ export function Counter() {
 
   return (
     <div className={s.btn}>
-      <button className={s.btn_min} onClick={decrease}>
+      <button disabled={counter === 1} className={s.btn_min} onClick={decrease}>
         -
       </button>
       <p className={s.btn_num}>{counter}</p>

@@ -1,6 +1,5 @@
 import s from './Order.module.css'
 import {Container} from "../Container/Container";
-import {Footer} from "../../UI/Footer/Footer";
 import { Link } from 'react-router-dom';
 
 export function Order() {
